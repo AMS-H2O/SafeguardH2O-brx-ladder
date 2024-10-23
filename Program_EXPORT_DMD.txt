@@ -1,0 +1,3191 @@
+// Options: Export entire program; Code Block delimiter instructions;
+// Formatted Rung Comments; Element Documentation Database w/Flags;
+// System Configuration; Memory Configuration/Devices with Built-In Types and User Add-Ons;
+// use Element names (no NickNames); rung/address annotations;
+// <TAB> parameter delimiter; 
+// Write/overwrite file C:\Users\marcp\OneDrive\Documents\[02]Work\[01]AMS\[05]SafeguardH2O\SetupDmD_v2_9_4\SafeguardH2O-brx-ladder\Program_EXPORT_DMD.txt
+
+PLC BX-DM1E-M-D
+
+// Do not modify SYS_CONFIG block!
+
+#BEGIN SYS_CONFIG
+36acb415655caeb4622ecb2d34de1b779916cbc21566f0c8cc2ec32e9196d67edb3225a22e872c93
+671f5d75dae795aee44f07c9774c34638da7c55921980b46a6556921ad8110cf7ded1d5935985d45
+dadfb34577a35bf8a603f88bdf8baa841b0cc2ccdbae1853d4429f3f1f086399b5c328c803c7c1c4
+b0bb33fafccc5b91142d5a52ae5529febda591d3507b79cbbc580f52a5e1050d3f17fd273c1ca3ab
+9f50d16581f64cc6970f6c22ca2cabf6ca74cd9fb1185b39a9861420a6085f4b58877b5af7e527a2
+c2c8acd9aaef33e4a7993757cb18f5983b374903b88ec3c1d7de6c5a4c0a5a70587bd78e1be15d49
+2a115426e9fddc7756b9332a04158817d03d015e30db0d8d3ceb200cfeaeacfd98161ea9adf3ea23
+1db27faaaa858cd8bb45bdc920404364c0f099c3002d63cbebfdb33c3dfebb8c5540a83f17195c86
+2d042774f713cad2e66a358af360ecab53911fe2e48d98ac0d9e7c3a3fe86f5434378302d6f9ecb9
+6c5b3ae0cd15a5b0e8e4f282992e89d8add9e5ddd9ef89ace1837ed1fe8930ffa28367467a6208c5
+0927ab1a032c5e8b95865f4e7ffae3ed28f5ccc25183f224178a19d47b16b2e292981a3ed6b1a1c7
+20335558216ec7525bbc8aacddc5b60bfd39b5bea4f9ffa01ee00368be3fc31f5b92f6bbb2f6abbe
+ac167e0f988461cf53c22b9d30e0da7eb73ca0872482d7f1a34c8bb93c49359e3f26006749b1d77d
+cbd489171a154c0aea05c9278adb8c0fe641a18bf29d4c34de00fe5501d0c5022a1dbfad6af906d1
+7d08fb4d425c6f0c2915b7bf31ec1fe57d7de52406ecc64f5180c13e544b8703f4ff95caa81198c2
+93d861c91570e3921a98e6d82a381633fdba15481afd90345a4299228941e47e25f34b60540ff6fc
+45063d5c9959ba556bd238afddfce0b88a735cab76b875831f960c8ae32dfd2ac1870fd359056d13
+43517dce6e75f00cdb4ab53989f7f7e7753050a260ddf5d4054c9d91b8a9b17642ee1aa1bf5482b4
+26699789cdff2bb431938b1d7497dde39aac2e7b0d959e8b8c186a05b33f40159c563c6bdac6868d
+732b36cd133f5caa2037b6535006c75405862a5eb2b50a963512e1f86ffc6b65e120323abdcbd106
+c61f5ee69f7687bf8703bb5b289d3d0c99dcb70ec2b1eab4528128569bf756ce67f09b26ad2dd34c
+d885760c40c1a9ff93ad51233b5255f118f1d63f1fa780c3f1c9295e5c1d971ce0fe592810fe3ada
+3b175952bd4d722448886b8d6de13625a19dceeded8a20ce3d29e7bea4b33246c282156c1632fd3a
+47a26d3dcb2fdcbffcd1c48b2a87bb48ecde4b10d30174d8741f48b66b46adbed3faa027bf0cce5e
+cb1a430c28a38059ee1aa3ca0a6dd09c2001085efb8be2ccd5f8cccceb201cfaa982921cce4b4c9b
+e2148bdc80f1224f5e7f8aca47f9800fb4e342ed99311c0b74f5e8c3ec726be4025b3d87917c494f
+8e4931a87aec593e9ea26fae8a29315a216b562d2a16652e071790af712cd5fd4446afc54c82d83a
+112881871690d890475ae1a86ca04fd1fe22838b124660d7e813ee4213666b32cc81ebe138ad6242
+9ee90fabac78a9cad1d1c9773ea20ea0e17ed0cf4404a0f9114ef6fd12439e9e2bc27ed698dd4673
+9bd9fe142962bb8c96f6843743b443d1a89a8daee4c0daf283f7a7d596a350bd769629bc464a99b0
+c0fccf1d9a06ea65a42f87e92bf689705c363cf3282501aa404135c48184b080bb246281bc7732db
+81370705f785aae033a741d1c2e7e0e903918dae01b9c0e9d5ecaa18a52f4cd89222e4e3839f2d1d
+cceaba0fbc76fdf038bbebc11e7caafe14553bf80f202e9fd35fb0d08d167a82b2e1ea1392fa20f7
+d6e0fbbba0004638f6529a887268594d6c6c9bda1fb83551b3e2eb573d438d5fd178124c4114ee4c
+cb65bccaa53801bb648ce648cbde469942800e9c4ff0c0cdef5e8800042fc02ef5a1eee34dac52f2
+d89af8092c958bbc7df4417bdf118519aae09d98f71f85722f6b6fc4c5ee57470da2262abc219268
+97e169239b72beed58afd81ca46c17d58f237c7155d4d2b2f3442eaebaa0d1c3ab867d552eec5845
+749e258104cb6a3a63fe2fb6689a150b1d70888bc25ddbc13b2c5a664be94c0b024b0551e3d80e76
+656342e727bee265985bd82e8182bdd18f6f07dac997f74054ae6ef727fdb42fb7b606823a74f9e5
+ff77ac4f2db1951adacb1c0baec06e4ed7175bfd51b5729ccc663f403b7b9d5f8f92cad3dd4f3d65
+96324aedc152fb12a49beb64df512aa2de15a6bea54021dc768d0153d8b7097482162418614b0ff1
+96e0ef0c4446f8435b5bbee27a5e17cee38f131098db29eafa4134c70b923bfb43c6e5d1f522ee1d
+8a217cfcb3fd733e672e9d97a69a92a1b5d67b65aad0b1adfa0a2b1f849187e041d8eec03d31d00e
+3f4cb173dbc6c6dfd97c975e3254f5e7f38daf9d875cbb9a1c4e52f3bf68086f46ebf3cb8c145761
+f726cb81c41a30bcda50474dc276ec34212f155685a7b85dcd303e35ccd64b54438148de4179a570
+d92fd31c3d878de5f54fb2fbd451939cf5764aa55060ba2acedcb320b26d45e88588acc896be99f6
+7b1d27a3edaf7c56bffa873ca9b7f4ea8c7bd022ee51f16dcc16336cd53b0b2051c0dc44c41770c2
+659b485051d6474bb2376736e02ece4bc6ad8a49fdd061c612fa94a6e34b0e84a29ae40867d80e0e
+2a445372284381cfe44b3d56afa7e2af48955da4b48564d9362c630da40e40742f40750f7efdc7ff
+5d9bc66d17b8fd81c254f1a919bc132f29d35fd93fbeb4f6a031bd61a2510a3d54d9c812fb15c47d
+bf401d7b303f8c392a5c2fb236c66f79a2c84ef6582db34af589ea30f2995e4ecf18247bd50cc4f9
+1a55e545ddde432bf689524e1f74009a1e49f1b146826d25ddbf252e7e6dceb0d05f7e7f84d9ef7e
+2576673d45d491bc829b1e5a8833a5a6bcc46f3a0962358e7286ce55f3a75d1050ed532af15e37fd
+53fa6ded256441939144843efc6f2b98070dcd50b5220f71c9dbd9fadfde0bc28bda4ebc273abbc4
+141284cf87a49e72ec858e9a1429e1cbb322e35b6721ac3c3df4c6517337215d3807415dbe01bfae
+651cbbbb2a8f5c9d255d3f6ee0d9bd7199a6db55c8569346cdfcc7896cda20f75cb51a47f78d5d3e
+9dea127b35d1c664a12ceec02e55c71452a37b1e4cceb59b1f2deefbef8310033f3ce08fa2dad8c4
+173f247880ca27b9d6334e0f5e68d10d8e5e839c978aef3ad04b665b9edbe80ab1bc1fa524d7c04f
+8f121d25b4a3b24c665f94c98a306edea4f49ff44236bf9c154ca9d8f7a4c584917f2c3d40b4a2b1
+73f51048a86ac358dde3accf4c9cdcd5d2d28219625ae36b7058a0adfe2eb15232c486da78cbf27b
+67cc577b7ff17f3f0918fffe363e1b3171c51b94e7602bb8aa0192f034a0345d4ab869169f60be4c
+c35d40281c8cbfa7787b2b149aecad1a70704c665aee30bfcc4902cd97d9f2c63ac605ca2b03ae5f
+0bdce0ede409b4bcb77295bcfe091b3366e9ed931a4cae79611bc8bed9cb70698479ef4e5c9093ba
+1951dda3f63318177592f9075c12078553c8c3cd6fd21c809954cfa02ae42338c0386fa26920b253
+0c89114b4e00e3df50e9f3fddcf699a79cf5ebf521e013575550b79662267ffaf2b716eae3100340
+8bdebb91f738127d4394bdc0e9887fbbf28aa7044cc0b6e38103b962b40fab5a416c4775e9b633ab
+e96ec62b17982134520f30ad637c109bcbf7bd73a9aa6367e9e12750148551f1370d51ec44541af9
+704ba549f9e7ec29ced795ecfed683e0a5b802e135d5cd6d2ef123887ab3341f7e894d00d8995075
+97f312f8d3dcbe610a966f2134b6801ba86d4a37fb680a6bc1de5684bed241a8ac1b0b15a2c73a47
+3fdcbe8aab125d4e940c532ec8ef7cce9986af9046e6559a7b5352e235e4d8d5bc5a3d3a53c26b7c
+943ea18fd38542117616bca3ab7b01aaedde06ab83244e38791d433fa9a9ed8fb57126bc46e3f429
+3b0a16b84ee42b05590f184b847d8d09fa2d17af282493fc1edad4d235a060772ac00bc9ad4b31f0
+34136ee271a3dcd4ffcb37cbd2cbdda3186ca33ae456a127ec8733bc170bfd0b0acfe8951989bbe8
+f7dee1359559df37d8b7e81197ef07a8513a2833639ff98b84db6e0c585d5b7af346eb71be36a469
+c390f3e104dcf7f76849a5a9c3e6c970afa580d5848fa1227811976504925257e0e39112d2205033
+e8670ac1eeff2f52a86f15488611175181e8f249c2d5c04f6180876dc97a6052de0cb347ca081a0e
+3138651eb0f0460ebb874f4762c88167840b78ff34d62a7aad0cfe336866700f74075279ff7246b1
+f181e14f3a908e560110efa89f872cb023b139b2fcd207ada66b0c200a17c51a180180e5dccc67c8
+e650a36cff1e1aa363552dc6ac84fdc6f36fcf9979aeb6cca3d5baa8130afdc1a05692ddc546a3a2
+56c43df1c789a1d8d7e2369a79acccd2f225490bf8822a4c96e837991bad20cca0bd9c530da31db3
+a12eeeb0b288f6d9454c4fd446be5d3ef7f037982ab2e082a1fe2454e86cc77901b27e63907b21d6
+bfdcfd255bfd491527b291f689fc211cbaba160e70e87219f570086ede673b82c19add7e1d35d2f7
+118e7516b37c24d2ff4ec41d879cba026a22475acf1f3e59bdb926922551684ce06fa1fb1c29973f
+b6ddff66458b928616a5ae90627453b053bf4877e40111c96693c019d4c58c06ce71455ada7ed368
+29c2466652fd466f6beb1170adb5f54a169d3a7f5d9faddc9438de12eff2e00099a542e9f8b81a5b
+91513c52589aa9c21ed22f324037401f437718dae44191c67132b917a827f7ab1d12269b5aa43a11
+00568e6abaedbde3beb5d9ba9fa9b9ed6a2d28d0f034166ca8c1cb417136b235a5ab84dc4ff9d78b
+7190015d6d6c8d456df669f18518897dc7b12bd797d5f60be74e5d8d8aec3b6cdb98930e6ea0c20c
+dfca6e7a17a48ef767cd6e0a2495ca22362274cd1ad62b3634e447bd3f2c520aedb735fb393ee504
+af92feecdd3104b42cbdb2500b326c55bde2701b71f2e6c98bbf933ee643fc9ab6ed5c3ce33411b5
+00af39f68fdf88921f7911d13e8747c4c71ca84e4d6ba29ad62ddceafe9bde3c314d96425eb526c6
+6330b2a440fc4591c03fefeb401ad0a08ed76cc65d4375f873a5b7e2d5fc2ad0a6259deb076325ba
+1163aa27aabaacde66da499a5a24c645bedda46087bbe16609b46c117fed9f1b2a0389042d366b3f
+720123775ea0c5aefbfb9f11cd2a769f6a253e1aba4acfab3c3b658c1be9fe3450ca6b49fef0a6c9
+a7c6f681710b1b654abda566e3dff71fe851042df2c6368125b4148270f04c9d9b29053d76dbd3c9
+374cb1e93b20c2d823856d7d3bfebd5a80878aa9ee4200321bd2512ca8cab2d62c1e1e490f5d25fb
+d73e3ca23ab4a5a705fcdf864c466c7ade9ebec36adf4f1e0aa256030440f033280b2b40b252c11e
+b28137d7572f72084adb52571b6a130e41b93700385d21d0fd92f872f1e35d0820875d785da7a3fd
+5d7a51518f7ed639db12c4c4372666b1c61712bdc9a78a3d99fdd7e71cc41d85a6636643312cfb48
+ef110c10e1e3917dec4b0d5d75d2a4aa1c3b5c421badb44f0dba21bc90362cdc7e100f2947dd2ef4
+739e5a9fea88e5254a46dc3c76e53554e13cab3cd21e42163869a9910f80a8a57ffbba8e37419a6b
+0b5b96cfb5d4edfbdcd8aab08ddc98297deb5238416806c426ac5b50713c5ab87c59d2f9a1e26200
+06314b33ad6b97b6948d495a940bcc5fe000d47fe63241bb5255cfce41ba4dad0c2178ed8c5ce700
+117d399755d0f7baa34bb10ed15e8ee051ca352fc1ef6d4852f936a184a703228c13670020eddae7
+741e1a8bb3e4813186d1f581044896a9f6bbe45bcefda8d3ad7391fda03c4a391a2856bcbff8aad8
+8497cd0a42ebe20634dd71cc904a5d3dbe142d9ed976e7628c5c7f30f49c5a6a04b5bc9b5959e519
+7ac3f362efc75a2af34f249e022199514324650b4557cf1f3e7e8271289d00a1157963d6f7e2f5ef
+071f114dd5b970d5a1c99c8bfe5b4d0a0828060558f6f8a7840d700076d73d8defd0a830de60da44
+68044533ca25861c97aaf3660849543cf5e83beca941cd291141c7da2e1203e25558628c9c03243a
+60d0d3719f4ca3c4256e19e7faae70e3749b9cae1e1a332d6e34be29c1b3eb3e7021564fe0a42f83
+a493d6453ae2b4443d9103fb47feb4167b90b984c0f9355227303ed208464eed3fe37465001a14aa
+265f447686dd9e29360a23556619913d5ce28cd874257a17ac2db80e2cf846a2cfe4e14a0cdac261
+5e23e19b8bd11ed23b72e2f99a068d70db137cce8d03243356f60a450e0c185374ca95f559061f37
+691277dd1f1123728ff0ceb9a851695e81cef2eef74e7261951fdc0547f06f77ce9ef54125067cd8
+c1a6a18f8f9101a8d65d077edd5c4442157fa7181b8dd71d72e099bfdc11e938723dfceb0d384a31
+7e734c5cdb1aca243ce2a7fb0a347485599a73df85b799ba00dbc0f4913e64b501e8a77397df5f34
+2220ad3aca9aaeff0ad4be7110466a311fe03978ebcf093341f187e6bd1a7d0e0c2d647e0e30de1b
+e403740bda7bfa0916716c2c1878fe4c764271f928aee7bf39b22eab40b0f5c52a743dc6ac032a19
+49edb74b34f1b95e6c0e965c565338513f326daabee3c90c4e3182b76f09e71ac283e9e35a055c16
+9d1f27c7cf4eb6b7a87ec8a3f7e9dd5743a5c40369a96cc7d8c98dbef4a402e2d5ae49a06b0785d5
+31d79d9d81477f3148278ce6a00805526caaf695ebcb91cbdb5d77907f8d74da40db31a81943da85
+b0e827eb67d1d6c5c4cd29e724d2d23767a2a5926ebe546b30d01d797eeadd21f1477b22d7a3b46d
+18bb144e02127580a809feb2a89abb69ea2aba8e0f7b8a7eecc7c82fedea77ccec2e3d187e93f5ba
+f1d8b8bd4f57c676d320a546c22a932716e18befadf7e9d6aca1769cdc7d7c2b40ef99b21e82b35d
+62de14ab2ce90cb12d72d995767fb4a63c3890c2dbc447cd337c178e53f34a21890a6fde9c82a944
+08d5d839ac9bb31703b0e32ba08e610f78b3b44c679dc2ab0d6f32025c55f52da8ef57fc97afbcbc
+c199630b952cb164899e6a06a62391ec00a86c2762b0c57bab4ca619b1ced25a7d32b85cceefb8f6
+efccebb4402c901b2b3855f642c4b8071f80e31cde06d5c23c2656d8c0f8dd68f151ba6a0fc6e2fb
+d961ad193e509ea24e98310ff1247bcd1c68f0b40f29289da93acd34ee1d8dff42dace88344f6497
+d41e7be95c068f6342cf3391d1987d198470503b57c12fe81bedd1e2ce11eedf03cdb0b0f1326341
+b4b27d4a3c4960691630556fbcf240da8fcf83910be8f847ff68e318483eb1926f72785537defc4b
+a5cc6173d14a42f2271836618c51222c5a5a329e3b929b4adb3c86af44bd6a099e7c9a0912214f95
+0884efb9c9eb49a9266d198c9c1aab77a8e69e03d47ed86f7c5a84fca2a019b55fa7e4ec4fdf9d4e
+12bfa3e6608fbfb0964ad2e91893b68cd750ff5f5cbe4b5791f7cb367bc9564c2eb38a85a7118c51
+43dd34aca18b738a4083c0cf0cdef6847a53d75ff611761d9572472f3bb68978363e43e5e4b8028b
+eeca2b0027503b721e40683b4934bf7c2d4ac2d14692d980931dec68bd2565c91dcc027dc206e61a
+4c6195813544c9e5c35e884de22ee97c800a23d0da53d6f31e30b7ff56f4e00aa5594881ac35b3ac
+4980ccdc934473642cb12affea1135dc7349c550e7cd3f7e64b4a64720226236a26b4790a38f0ce7
+4ea114e0727c9f1dd118d12b71c7c7dd21e5e41fbf57d850f64f74a11c89ac7983e2113a205e3b41
+83f74c819095e3a2a33729f6133e295f0286cc85498592573c3463226b34d97c3bf932af0f3ebe57
+507cc3a432ffd27ffeb167727a1b91c3406b4adcde60eecb8d9164db5d7ee5e9a0fed87ad550c21f
+1269be5bb91960f289b49960f06e0dbf61b2df3e1ee6f2791a1aa8d5cbc68d8c725ca4f5e87af730
+9cda6bc6a5b27a3e1425497cc42dcdb06b753215aee439d8aefa3a380fded51fd890800de2264176
+a74f087d43350ccc41fc9d84325bbf300447b0b552699bc5a600f35fc0376fcaf110a937803ae2a2
+655de5708c09432cd45510de3b5014fe896445e271eccd54b6fe48f5db9c3ef9f9a3acceabfda6c8
+a27cb3c607776590b3d1f9a1bbeeeb3d3f596d940ee2aec505055acb9981c2e81e06c2242ec20ba9
+fead76975649490c4c84d6846234a82ecb5d963895d262b682a5af908f8269e550f5708e6671e135
+f7c1fa0998f7add84a98914fb500a005ebf36c0242a7b0a7fdd34453ac85f37c33b54e8a3a213514
+0473ce12e9459d02a97f37d6fb6a50d771d72eb9f4062be999d59f00f5cda2d08117f6111b732c55
+37b9583f5ffcd761ce6ca26e4c23551033e2933619babf838d118c7041290abb03122cf3d30806e7
+b0f47ed9b968697184c761d844439aefe39bc13d5cf86c0548c794c4d33203a4a7f8eddd9c6809b2
+9ee6d42333de4af21ba3d870207123bc20fd573496b0cf453370a02b429f27c64700f173414f8d88
+3835657d8c3254c7e3535eb881286b59c11d04ca8381d3b131d013c9d73c718099c1ba28bb849393
+d8ace4c3bdcac059456c61b84a2bdf1f87a47b695c3f915423757e4b7791519f903e6d4a472a347b
+fbe64f1aee2e87b6c04f5794e03b18b8842b8b6a671e8a979842a89711607665d766d40b3f7c0f5c
+951fe9d0968eee11e5f2ec242f57cc5e0d3cd2b5b93e332437fb0c89c68044c349818ee9a80f2e89
+a5884c40a237d3168ce754156fefb1758b1ea208a608574f74f3e260a32fa826920615c3e1f3da1d
+691c6cc1ba0ff7fa1484234139a3773624bba740c2b1a9e3dcb6b68f6171d74912db2d00e8c953ad
+df6cc9eb7576ee4e92fd58e54e85f51627fe88503e64842406ada0adc24fc568f1aafb6690695d2b
+31881215ac0cfbe43d1e727ffef024f143ee20ba7251ac4defcb51b586c2c673bade0c74399b50c9
+0900e638bdaee165eecc986e6b84a6c28bff7df6155745f62bc5a36c1771be1276e81d97ee70c5ff
+65798cbd505b1a42db83aa201bb548d9d2f64f2c9c387c13e3ccfe4a859f1315f0225eb80f3f8256
+cd208c896fbe79c2ccc51449cad97d4b8767a43cefafd3fb1185d39757eb4f6c1d35f4311b98d9bc
+940dd0738d875a5d6ec165ed74815c0b146d3065ef1cd135a0386fc14ae81c3bbaf96ffd4880bc29
+4bc87dd17a8121c7ac3d6edfb7299ce43646d4986c6e0b4128717bd887ffe58a6c7638ddf79f68c2
+b5d7b01f518ca8c6b4c3d6a7d3778e4903f02114362cdc4a0a406329d8c1fe0bd45820497e74ad52
+9ca7cdfec4d66b21818581ac4dbfd465bb60be128eb79735f6de3a1b76b2dd0d117e417f9f493a9e
+d9d0f176db23cfdc9191ff906ac626663527153b502082ad5b4f04455751d94501b0238c5899e523
+3a4ac608517e598aef20335dcf58049dd3b7ddb47dc33e8ff4d88f54a0fadb4eeb637149e826f463
+06d21dc6da2b924d4ebb6c2fdeb76ec412ce17893e776e1cc3697dbdbeb8a101050e33ba0b3b7520
+66e729035752dcca3031698dfaf137123850795d89451cea405ed3ce5e1c8f8070fcf5f18744c093
+f1b9ef06b84e4bd5dc3f5a0d1c1c4a24b560228a3439a094765d61169dc1bf4a4f9797a4842c6d8e
+597493a5a15c22380859f7ebfb7a02f94cd2cd6fa5e163644c64673626e5ab1dfcab8b3df4f3b8cf
+1fe3535ac0634dee47b63b685a1d77b7acaf9873fa1b33ea92b836d474291e4eb6fcc795be5542dd
+857fb69beb9a3165322acefa1b8a7cc1b8af9a1910c66af29ca9f1180b28f9194069f55b8d07dd03
+2bfacefaf9ae6d748660868a39b4be1d7e0164633ac45cc31a354f9ed633a8cd20571b28380426df
+25f978965c3a34c85d662b4e881e5a18436b7ebf7b5d643cd993588aa644a61f22dd5244cd30d65a
+f128da59e1b355d9cb8c4197d9aca09cfeaedabaf33ebb9fb4a2a0d9c4f6238605607a25058a77fb
+a3eca5e4c005ab9dc5b98eb3ddeafd8f855ee8c69fd7dbcc888672854e8ff28fa5e1699e8b0c1562
+937fdde28a0635907c5af7efc93db4e66405ffa294ac120c5e6c8f1363cbe5d64b05b6adb2cbceab
+baf6d0613006d22965a53663915aa4b2ebce5e5fc86a401b31a3fc361e62142c6a973f726a03ddc5
+2bee8123d9a3deb7a35b8a91133c4d1fdb56f5f602389c81ecb7199ef748df33452977c48a176ad5
+71d79b23e302cc8e7bb558e773a25e70463b5b7e6328b32a93770f1c0f7c46eb188dcebde545891a
+58d3ae1d34f1e5fdd201a3a7e6a52a7ff911eafa991de175d6b5cd297df3eb45bff3d6352bf8f3cb
+78b26303fc55c2c718b57dbfa28579aea08396999599e2b6961932fed8a29afa533b94eea146732e
+173daec9983014d73413377f0800ed71ed7b7693ac05cdbf20849aeedb57643827b306c4be1d14cc
+0aa5229d96062b18474fd9c681cf3ca104d3b4306e78ca4507d1fe0b11d20ff27508831039f23bc8
+9a0cfd2cc62d2ac9b60c0fa5f382e782b914935f73e6dcc4d65c951d566df3f80a207fa69436a392
+b279aaecdee626f2e9e76af33c78ae57d9ad4b31f902065111c0452f66ac0bec09e89b293b5aa174
+18b358d40be2fb0d17e305618eaa3bc53ee9748a34b0f28f151846fb76f067d31ab403c9c612e112
+58d2a1ec8acc61f0864d7db458bedd6fe186fc27397262c7864dfa7532e0fcc9afb949bea155e462
+3b1030a7b91f2883e74a27035a53e0031d762b323e66948eeadf
+#END
+
+
+
+#BEGIN DEVICE
+	@LocalIOMaster, 12, 27
+	@UserLog, 7, 11
+	@IntEthernet, 4, 2
+	@DMLogger, 5, 10
+	@IntModTCPClient, 9, 14, 1000, 2, 60
+	@IntSerial, 10, 15
+	@RamFS, 1, 1
+	@SDCardFS, 25, 1
+	@IntEIPClient, 22, 31, 1000, 2, 60
+	@IntEthDMPPClient, 23, 32, 50, 250, 2
+	@POM, 24, 33
+	@Axis0, 30, 35
+	@Axis1, 31, 35
+	@Axis2, 32, 35
+	@Axis3, 33, 35
+	@HsCtrTmr1, 14, 29
+	@MyFTPClient, 32769, 38, 4294967295, 21, 30000, 4, amsftp@amshm.com, AMSwaterHM34896@!, ftp.amshm.com
+	@MyHTTPClient, 32770, 8
+	@SERIO_001_A, 16385, 24
+	@SERIO_001_B, 17409, 24
+	@SERIO_001_C, 18433, 24
+	@SERIO_001_D, 19457, 24
+#END
+
+#BEGIN MEM_CONFIG
+	X	BIT	decimal	2048	-1
+	Y	BIT	decimal	2048	-1
+	WX	SWORD	decimal	256	-1
+	WY	SWORD	decimal	256	-1
+	C	BIT	decimal	2048
+	V	UWORD	decimal	4096
+	N	SWORD	decimal	4096
+	D	SDWORD	decimal	4096
+	R	REAL	decimal	4096
+	T	TIMER	decimal	256	-1
+	CT	COUNTER	decimal	256
+	SS	STRING	decimal	128
+	SL	STRING	decimal	64
+	UDT	DATETIME	decimal	32
+	PL	UWORD	decimal	256
+	DLX	BIT	octal	01000
+	DLY	BIT	octal	01000
+	DLC	BIT	octal	01000
+	DLV	UWORD	octal	04000
+	MI	BIT	decimal	1024
+	MC	BIT	decimal	1024
+	MIR	SWORD	decimal	2048
+	MHR	SWORD	decimal	2048
+	RX	REAL	decimal	256	-1
+	RY	REAL	decimal	256	-1
+	A	BIT	decimal	256	-1
+	F	REAL	decimal	32
+	B	BIT	decimal	256
+	TO	SDWORD	decimal	32
+	TT	REAL	decimal	16
+	W	REAL	decimal	16
+	SC	REAL	decimal	64
+	SE	BIT	decimal	256
+	MSG	STRING		0
+	ERR	STRING		0
+	SysName	STRING		0
+	SysDesc	STRING		0
+	SerialNum	STRING		0
+	PartNum	STRING		0
+	TaskGalvanostat	TASK		0	-1
+	ProgInfo	PROGRAM		0	-1
+	ProgErrors	PROGRAM		0	-1
+	TaskUltrasonics	TASK		0	-1
+	TaskPolarity	TASK		0	-1
+	ProgDosingPump	PROGRAM		0	-1
+	ProgWarnings	PROGRAM		0	-1
+	TaskAcidPumpPID	TASK		0	-1
+	AcidPumpCtlPID	PID		0
+	RS_0	RAMPSOAK		0
+	TaskLoadWebPages	TASK		0
+	PropValveCtlPID	PID		0
+	TaskPropValvePID	TASK		0	-1
+	RS_1	RAMPSOAK		0
+	ConductvyCtlPID	PID		0
+	TaskConductvyPID	TASK		0	-1
+	RS_2	RAMPSOAK		0
+	TaskRoutineTest	TASK		0	-1
+	TaskUpdPlatePerc	TASK		0	-1
+	ProgNotices	PROGRAM		0	-1
+	ProgStateMachine	PROGRAM		0	-1
+	ProgDraining	PROGRAM		0	-1
+	ProgAbortDrain	PROGRAM		0	-1
+	ProgAbortRinsing	PROGRAM		0
+	ProgRinsing	PROGRAM		0	-1
+	TaskResetPlates	TASK		0	-1
+#END
+
+// Beginning of Code Block $tFirstScan
+$TSK	$tFirstScan
+
+// Rung $tFirstScan#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br>"
+"<FONT tsize=5>$tFirstScan</FONT><br><FONT tsize=5></FONT> "
+"<br>This is the first ladder task that is ran once when the "
+"PLC is placed into RUN mode.  Just to be sure, internal "
+"memory variables are initialized and any default "
+"configurations can be reloaded.  If a program change "
+"requires these to be reloaded, be sure to switch to program "
+"mode then back to run mode either by physical or software "
+"switch."
+#END
+
+NOP
+
+// Rung $tFirstScan#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"Reset local memory variable ranges/registers to zero when "
+"PLC first starts up.  (If a nickname appears in the ""End"" "
+"column, may need to increase the initialization range.)  If "
+"an I/O was previously on when it shouldn't, it will be "
+"reset at the bottom of the scan.  Note, not clearning "
+"specific registers to be left as retentive in case they are "
+"changed by UI operator (examples are target amperage, "
+"polarity or ultrasonic timings)."
+#END
+
+STR	ST1
+INIT	"3 C0 C63 0 A0 A32 0 B0 B47 0 F0 F23 0 W0 W15 0"
+INIT	"3 R0 R7 0 R9 R47 0 D0 D3 0 D7 D23 0"
+
+// Rung $tFirstScan#3
+// Offset 32
+#BEGIN FMT_COMMENT 
+"Initialize specific modbus registers to 0."
+#END
+
+STR	ST1
+INIT	"3 MC1 MC10 0 MC101 MC123 0"
+
+// Rung $tFirstScan#4
+// Offset 40
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C ENABLE/DISABLE "
+"%3E%3E%3E%3E</FONT><br> <br>Set various enable/bypass "
+"registers to test or enable/disable subsections of code.  "
+"Not determined yet if from config file, retentive memory, "
+"GUI, or other method.  Be sire to reset once done testing "
+"and restart the PLC program mode for first scan to take "
+"affect."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 C33 1 0x0 1 C26 1 0x0 1 C27 1 0x0 1 C28 1 0x0 1 C29 1 0x0 0 C24 1 0x0 0 C45 1 0x0 0 C47 1 0x0 1 C48 1 0x0 1 C38 1 0x0 0 C39 1 0x0 0 C50 1 0x0 1 C51 1 0x0 1 C52 1 0x0 0 C56 1 0x0 1 C34 1 0x0 1 C41 1 0x0 1 C42 1 0x0 1 C43 1 0x0 1 C59 1"
+
+// Rung $tFirstScan#5
+// Offset 65
+#BEGIN FMT_COMMENT 
+"Load or set default values to original hard-coded run-time "
+"values.  Future could load configurations from common "
+"sources (UI, file, LEDs, etc).  Not determined yet if from "
+"config file, retentive memory, GUI, or other method."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 60 F3 1 0x0 10 F1 1 0x0 30 F2 1 0x0 70 F0 1 0x0 1.7 F10 1 0x0 1000 F4 1 0x0 1000 F9 1 0x0 2000 F7 1 0x0 2000 F8 1 0x0 1000 F5 1 0x0 1000 F6 1 0x0 1 F11 1 0x0 1 F12 1 0x0 1 F13 1 0x0 31 F14 1 0x0 3.5 F15 1 0x0 36000 F16 1 0x0 1000 F17 1 0x0 23400 F18 1 0x0 75.0 F19 1 0x0 30.0 F20 1 0x0 60 F21 1"
+
+// Rung $tFirstScan#6
+// Offset 118
+#BEGIN FMT_COMMENT 
+"Set various ranges for errors, warnings, and interlocks.  "
+"Not determined yet if from config file, retentive memory, "
+"GUI, or other method."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 3 R0 1 0x0 5 R1 1 0x0 29 R2 1 0x0 35 R3 1 0x0 1.5 R4 1 0x0 2 R5 1 0x0 4 R6 1 0x0 5.5 R7 1 0x0 10 R20 1 0x0 14 R21 1 0x0 30 R22 1 0x0 40 R23 1 0x0 20 R24 1 0x0 15 R25 1 0x0 200 R26 1"
+
+// Rung $tFirstScan#7
+// Offset 155
+#BEGIN FMT_COMMENT 
+"Set various timeout values for errors, warnings, and "
+"interlocks.  Not determined yet if from config file, "
+"retentive memory, GUI, or other method."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 120000 TO0 1 0x0 120000 TO1 1 0x0 120000 TO2 1 0x0 120000 TO3 1 0x0 120000 TO4 1 0x0 300000 TO5 1 0x0 120000 TO6 1"
+
+// Rung $tFirstScan#8
+// Offset 181
+#BEGIN FMT_COMMENT 
+"Set check rules (warnings, interlocks, errors) to be "
+"either enabled or disabled for individual testing.  Be sure "
+"to reset once done testing and restart the PLC program "
+"mode.  First, INIT all B registers to 0 or 1 (depending "
+"upon desired affect), then COPY select B registers to 1 to "
+"test individual rules.  Several combinations are possible.  "
+"Remember to check the CEnableErrors, CEnableInterlocks, and "
+"CEnableWarnings registers above too."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 B0 1 0x0 0 B1 1 0x0 0 B2 1 0x0 1 B3 1 0x0 1 B4 1 0x0 0 B5 1 0x0 1 B6 1 0x0 1 B7 1 0x0 0 B8 1 0x0 0 B9 1 0x0 0 B10 1 0x0 0 B11 1 0x0 0 B12 1 0x0 0 B13 1 0x0 0 B14 1 0x0 1 B15 1 0x0 1 B16 1 0x0 0 B17 1 0x0 0 B18 1 0x0 1 B19 1 0x0 1 B20 1 0x0 0 B21 1 0x0 1 B22 1 0x0 1 B23 1 0x0 0 B24 1 0x0 0 B25 1 0x0 0 B26 1 0x0 1 B27 1 0x0 1 B28 1 0x0 1 B29 1 0x0 1 B30 1 0x0 1 B31 1 0x0 1 B32 1"
+
+// Rung $tFirstScan#9
+// Offset 219
+#BEGIN FMT_COMMENT 
+"Load original default values into actual default working "
+"variables that do not need any manipulation like "
+"milliseconds.  If these change downstream or via GUI, "
+"alternate approach is needed between working and saving of "
+"the new default values.  Not determined yet if from config "
+"file, retentive memory, GUI, or other method.<br> <br>"
+"Set debounce values..."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 F4 D7 1 0x0 F9 D12 1 0x0 F5 D8 1 0x0 F6 D9 1 0x0 F7 D10 1 0x0 F8 D11 1 0x0 F5 D16 1 0x0 F6 D17 1"
+
+// Rung $tFirstScan#10
+// Offset 240
+#BEGIN FMT_COMMENT 
+"Set scaling parameters for each device.  Different "
+"installs/products could have different ranges depending "
+"upon product.  Rather than finding the SCALE command, can "
+"enter here."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 SC0 1 0x0 16383 SC1 1 0x0 0 SC2 1 0x0 R26 SC3 1 0x0 0 SC4 1 0x0 32767 SC5 1 0x0 0 SC6 1 0x0 100 SC7 1 0x0 0 SC8 1 0x0 16383 SC9 1 0x0 -2 SC10 1 0x0 2 SC11 1 0x0 6553 SC12 1 0x0 32767 SC13 1 0x0 -10 SC14 1 0x0 70 SC15 1 0x0 0 SC16 1 0x0 32767 SC17 1 0x0 -40 SC18 1 0x0 85 SC19 1 0x0 6553 SC20 1 0x0 32767 SC21 1 0x0 0 SC22 1 0x0 25 SC23 1 0x0 6553 SC24 1 0x0 32767 SC25 1 0x0 0 SC26 1 0x0 14 SC27 1 0x0 0 SC28 1 0x0 32767 SC29 1 0x0 0 SC30 1 0x0 15 SC31 1 0x0 6553 SC32 1 0x0 32767 SC33 1 0x0 8 SC34 1 0x0 0 SC35 1 0x0 0 SC36 1 0x0 R26 SC37 1 0x0 3276 SC38 1 0x0 29490 SC39 1 0x0 0 SC40 1 0x0 32767 SC41 1 0x0 0 SC42 1 0x0 32767 SC43 1 0x0 0 SC44 1 0x0 32767 SC45 1 0x0 0 SC46 1 0x0 32767 SC47 1"
+
+// Rung $tFirstScan#11
+// Offset 341
+#BEGIN FMT_COMMENT 
+"Scaling for acid pump PID in regards to pH."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 0 SC48 1 0x0 14 SC49 1 0x0 0 SC50 1 0x0 14 SC51 1 0x0 0 SC52 1 0x0 25 SC53 1 0x0 0 SC54 1 0x0 25 SC55 1 0x0 0 SC56 1 0x0 100 SC57 1 0x0 0 SC58 1 0x0 100 SC59 1"
+
+// Rung $tFirstScan#12
+// Offset 370
+#BEGIN FMT_COMMENT 
+"Set the default path and file name for log files using the "
+"SysName of the assigned PLC."
+#END
+
+STR	ST1
+STRCOPY	SysName	SS1	1
+STRINSERT	"""data\"""	SS1	0
+
+// Rung $tFirstScan#13
+// Offset 379
+#BEGIN FMT_COMMENT 
+"Set the default tuning parameters for the acid pump PID control."
+#END
+
+STR	ST1
+AND	C50
+PIDINIT	AcidPumpCtlPID	276	295.432	9.208	0
+
+// Rung $tFirstScan#14
+// Offset 388
+#BEGIN FMT_COMMENT 
+"Set the default tuning parameters for the proportional "
+"valve PID control."
+#END
+
+STR	ST1
+AND	C51
+PIDINIT	PropValveCtlPID	100	4.5	3.809	0
+
+// Rung $tFirstScan#15
+// Offset 397
+#BEGIN FMT_COMMENT 
+"Set the default tuning parameters for the conductivity PID control."
+#END
+
+STR	ST1
+AND	C52
+PIDINIT	ConductvyCtlPID	100	2.544	11.91	1.985
+
+// Rung $tFirstScan#16
+// Offset 407
+#BEGIN FMT_COMMENT 
+"Set timed variables back to original default if a previous "
+"value was not in retentive memory (i.e. was zero value).  "
+"Also, convert original saved default values from seconds to "
+"milliseconds for those registers that need milliseconds."
+#END
+
+STR	ST1
+MATH	D6	"ROUND(F3 * 1000)"
+MATH	D4	"ROUND(F1 * 1000)"
+MATH	D5	"ROUND(F2 * 1000)"
+
+// Rung $tFirstScan#17
+// Offset 435
+#BEGIN FMT_COMMENT 
+"Set remote enable here rather than using software forces.  "
+"This is a reserved register for sites requiring an external "
+"enable input to start/stop processing.<br>"
+"This should be replaced with real IOs in the final version."
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 1 C0 1"
+
+// Rung $tFirstScan#18
+// Offset 441
+STR	ST1
+COPY	0x1	"4 0x0 ""First scan complete."" SL0 1"
+
+// End of Code Block $tFirstScan
+$TSKEND	$tFirstScan
+
+// Beginning of Code Block $tTopOfScan
+$TSK	$tTopOfScan
+
+// Rung $tTopOfScan#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br>"
+"<FONT tsize=5>$tTopOfScan</FONT><br><FONT tsize=5></FONT> "
+"<br>This is the first ladder task before the main ladder "
+"steps for each loop.  By taking any physical inputs and/or "
+"Modbus and/or any other device supplying updates and "
+"writing them into memory registers for all ladder "
+"operations for processing until the bottom of the scan in "
+"which all outputs are set."
+#END
+
+NOP
+
+// Rung $tTopOfScan#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"Read in incoming digital bits (X) and debounce signal for "
+"stability into working variables (C).<br> "
+#END
+
+STR	X2
+DEBOUNCE	D13	D14	C9
+
+// Rung $tTopOfScan#3
+// Offset 6
+STR	X8
+DEBOUNCE	D13	D14	C10
+
+// Rung $tTopOfScan#4
+// Offset 11
+STR	X2
+DEBOUNCE	D13	D14	C46
+
+// Rung $tTopOfScan#5
+// Offset 16
+STR	X3
+DEBOUNCE	D13	D14	C62
+
+// Rung $tTopOfScan#6
+// Offset 21
+STR	X4
+DEBOUNCE	D13	D14	C11
+
+// Rung $tTopOfScan#7
+// Offset 26
+STR	X5
+DEBOUNCE	D13	D14	C12
+
+// Rung $tTopOfScan#8
+// Offset 31
+STR	X6
+DEBOUNCE	D13	D14	C13
+
+// Rung $tTopOfScan#9
+// Offset 36
+STR	X7
+DEBOUNCE	D13	D14	C14
+
+// Rung $tTopOfScan#10
+// Offset 41
+STR	X8
+DEBOUNCE	D13	D14	C15
+
+// Rung $tTopOfScan#11
+// Offset 46
+STR	X9
+DEBOUNCE	D13	D14	C25
+
+// Rung $tTopOfScan#12
+// Offset 51
+STR	X10
+ANDN	MC8
+ANDN	C57
+DEBOUNCE	D15	32768	C35
+
+// Rung $tTopOfScan#13
+// Offset 58
+STR	X11
+DEBOUNCE	D15	32768	C36
+
+// Rung $tTopOfScan#14
+// Offset 63
+#BEGIN FMT_COMMENT 
+"Read all scaled analog inputs (WX) into local memory "
+"decimal variables (R).  Use unscaled analog inputs (WX) for "
+"original raw values from devices."
+#END
+
+STR	ST1
+MAPIO	"2 WX23 W0 WX4 W1 WX2 W8 WX21 W3 WX1 W4 WX20 W5 WX3 W6 WX22 W7"
+
+// Rung $tTopOfScan#15
+// Offset 83
+#BEGIN FMT_COMMENT 
+"Convert raw (WX) values into scaled values per each "
+"individual device specs."
+#END
+
+STR	ST1
+SCALE	W0	SC0	SC1	SC2	SC3	R18
+SCALE	W1	SC4	SC5	SC6	SC7	R14
+SCALE	W3	SC12	SC13	SC14	SC15	R16
+SCALE	W4	SC16	SC17	SC18	SC19	R17
+SCALE	W5	SC20	SC21	SC22	SC23	R9
+SCALE	W6	SC24	SC25	SC26	SC27	R13
+SCALE	W7	SC28	SC29	SC30	SC31	R27
+SCALE	W8	SC32	SC33	SC34	SC35	R28
+
+// Rung $tTopOfScan#16
+// Offset 132
+#BEGIN FMT_COMMENT 
+"If on a system where galvanostat doesn't return a feedback "
+"amperage, set the feedback to the target out amperagee."
+#END
+
+STRN	C45
+COPY	0x1	"4 0x0 R8 R18 1"
+
+// Rung $tTopOfScan#17
+// Offset 139
+#BEGIN FMT_COMMENT 
+"If flow rate returns negative, set back to zero."
+#END
+
+STRLT	R9	0.06
+COPY	0x1	"4 0x0 0 R9 1"
+
+// Rung $tTopOfScan#18
+// Offset 150
+#BEGIN FMT_COMMENT 
+"If voltage approaches zero, set to zero."
+#END
+
+STRLT	R27	0.06
+COPY	0x1	"4 0x0 0 R27 1"
+
+// Rung $tTopOfScan#19
+// Offset 161
+#BEGIN FMT_COMMENT 
+"If amperage approaches zero, set to zero."
+#END
+
+STRLT	R18	0.06
+COPY	0x1	"4 0x0 0 R18 1"
+
+// Rung $tTopOfScan#20
+// Offset 172
+#BEGIN FMT_COMMENT 
+"Use FILTER command against the incoming voltage reading to "
+"slow down the drastic changes, especially during polarity "
+"switching."
+#END
+
+STR	ST1
+FILTER	2	R27	R19
+
+// Rung $tTopOfScan#21
+// Offset 176
+STR	C45
+MATH	R19	"R19 * 10"
+MATH	R18	"R18 * 10"
+
+// Rung $tTopOfScan#22
+// Offset 193
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C DEMO MODE "
+"%3E%3E%3E%3E</FONT><br><FONT tsize=5></FONT> <br>If in "
+"DemoMode, overwrite any values from above."
+#END
+
+STR	C33
+COPY	0x1	"4 0x0 5.55 R18 1 0x0 55.5 R14 1 0x0 2.2 R15 1 0x0 25.5 R16 1 0x0 35.5 R17 1 0x0 4.44 R9 1 0x0 2.2 R13 1 0x0 7.77 R19 1 0x0 4000 R28 1"
+
+// Rung $tTopOfScan#23
+// Offset 224
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C WEB PAGES "
+"%3E%3E%3E%3E</FONT><br> <br>Refresh web pages from SD card "
+"to RAM."
+#END
+
+STR	C38
+ENTASK	TaskLoadWebPages	0x0	0	0x1
+
+// Rung $tTopOfScan#24
+// Offset 229
+#BEGIN FMT_COMMENT 
+"On leading edge of green button press or leading edge of "
+"HMI start state, set local bit.<br>"
+"Output the button press to modbus (MC3) so that it can be "
+"interpreted by the UI as a command to start."
+#END
+
+STRPD	C35
+ORPD	MC1
+COPY	0x1	"4 0x0 1 C1 1 0x0 0 C36 1 0x0 0 MC1 1"
+
+// Rung $tTopOfScan#25
+// Offset 240
+#BEGIN FMT_COMMENT 
+"On leading edge of red button press or trailing edge of "
+"HMI entered stop state, set local bit.<br>"
+"Output the button press to modbus (MC4) so that it can be "
+"interpreted by the UI as a command to stop."
+#END
+
+STRPD	C36
+ORPD	MC2
+ORE	D0	SM_Halted
+COPY	0x1	"4 0x0 0 C1 1 0x0 0 C35 1 0x0 0 MC2 1"
+
+// Rung $tTopOfScan#26
+// Offset 256
+STR	MC8
+ENTASK	TaskRoutineTest	0x0	0	0x1
+
+// End of Code Block $tTopOfScan
+$TSKEND	$tTopOfScan
+
+// Beginning of Code Block $Main
+$PRGRM	$Main
+
+// Rung $Main#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br><FONT tsize=5>$Main</FONT><br>"
+"<FONT tsize=5></FONT> <br>This is the main ladder loop "
+"launched afte the TopOfScan.  The BottomOfScan is launched "
+"after this Main loop.  This Main task starts and stops "
+"other programs and tasks."
+#END
+
+NOP
+
+// Rung $Main#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C ERRORS / WARNINGS / INFO "
+"%3E%3E%3E%3E</FONT><br> <br>Start side programs to monitor "
+"conditions (errors, warnings and info) that may or may not "
+"require a temporary halt of processing.  If the condition "
+"returns to normal, processing may proceed, otherwise, local "
+"operators may need to resolve the issue and restart.  See "
+"the programs for further details."
+#END
+
+STR	C28
+RUN	ProgInfo
+
+// Rung $Main#3
+// Offset 4
+STR	C26
+RUN	ProgErrors
+
+// Rung $Main#4
+// Offset 7
+STR	C27
+RUN	ProgWarnings
+
+// Rung $Main#5
+// Offset 10
+STR	C59
+RUN	ProgNotices
+
+// Rung $Main#6
+// Offset 13
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C GENERATOR "
+"%3E%3E%3E%3E</FONT><br> <br>If the system bit is on and "
+"there are no errors and there are no interlocks, start the "
+"tasks which handle the amperage, ultrasonics, and "
+"polarity.  The task should stay active and running as long "
+"as these conditions are met.  Also, turn on one of the "
+"H-bridge relays."
+#END
+
+STRE	D0	SM_Running
+ENTASK	TaskGalvanostat	0x0	0	0x1
+ENTASK	TaskUltrasonics	0x0	0	0x1
+ENTASK	TaskPolarity	0x0	0	0x1
+
+// Rung $Main#7
+// Offset 30
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5></FONT>But, if the system bit is off, or "
+"there is an error, or there is an interlock, or the system "
+"mode is not correct, turn off the generator task.  Although "
+"halting a task should automatically turn off all embedded "
+"bits to that task, perform a copy anyway to make sure."
+#END
+
+STRNE	D0	SM_Running
+HALT	TaskGalvanostat
+HALT	TaskUltrasonics
+HALT	TaskPolarity
+COPY	0x1	"4 0x0 0 C5 1 0x0 0 R8 1 0x0 0 C3 1 0x0 0 C4 1 0x0 0 C30 1 0x0 0 C31 1 0x0 0 C37 1"
+
+// Rung $Main#8
+// Offset 50
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C MAIN INLET VALVE "
+"%3E%3E%3E%3E</FONT><br> <br>If the system is running, open "
+"up the main valve and close when not running."
+#END
+
+STRN	MC602
+AND	C60
+STR	MC602
+AND	MC603
+ORSTR
+COPY	0x1	"4 0x0 1 C16 1"
+
+// Rung $Main#9
+// Offset 60
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STRN	MC8
+STRN	MC602
+ANDN	C60
+STR	MC602
+ANDN	MC603
+ORSTR
+ANDSTR
+COPY	0x1	"4 0x0 0 C16 1"
+
+// Rung $Main#10
+// Offset 72
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C DRAIN PUMP "
+"%3E%3E%3E%3E</FONT><br> <br>If the UI is forcing on/off the "
+"drain pump, set elements needed."
+#END
+
+STR	MC610
+DUPBOOL
+AND	MC611
+COPY	0x1	"4 0x0 1 C7 1"
+POPBOOL
+ANDN	MC611
+COPY	0x1	"4 0x0 0 C7 1"
+
+// Rung $Main#11
+// Offset 87
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5><FONT tsize=5>%3C%3C%3C%3C ACID PUMP PID "
+"%3E%3E%3E%3E</FONT><br> <br></FONT><FONT tsize=3>Start/stop "
+"PID task for acid pump controlling ph.</FONT>"
+#END
+
+STR	C60
+AND	C50
+ENTASK	TaskAcidPumpPID	0x0	0	0x1
+COPY	0x1	"4 0x0 1 C6 1"
+
+// Rung $Main#12
+// Offset 98
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STRN	C60
+HALT	TaskAcidPumpPID
+COPY	0x1	"4 0x0 0 R10 1 0x0 0 C6 1"
+
+// Rung $Main#13
+// Offset 107
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5><FONT tsize=5><FONT tsize=5><FONT "
+"tsize=5>%3C%3C%3C%3C PROPORTIONAL VALVE PID "
+"%3E%3E%3E%3E</FONT><br> <br></FONT><FONT tsize=3>Start/stop "
+"PID task for proportional valve controlling flow "
+"rate.</FONT></FONT><br></FONT>"
+#END
+
+STRN	MC602
+AND	C60
+AND	C51
+STR	MC602
+AND	MC603
+ORSTR
+ENTASK	TaskPropValvePID	0x0	0	0x1
+COPY	0x1	"4 0x0 1 C49 1"
+
+// Rung $Main#14
+// Offset 122
+STRN	MC8
+DUPBOOL
+ANDN	MC602
+ANDN	C60
+HALT	TaskPropValvePID
+POPBOOL
+AND	MC602
+ANDN	MC603
+COPY	0x1	"4 0x0 0 C49 1"
+
+// Rung $Main#15
+// Offset 135
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C SYSTEM MODE "
+"%3E%3E%3E%3E</FONT><br> <br>Upon each and every loop, "
+"regardelss if system is on or off, determine the current "
+"status of the system (i.e. Ready, Running, Alarm, etc) and "
+"set registers accordingly for further use.  This isn't "
+"defined as a task or program, which may run in different "
+"scans, but instead as a subroutine, which will run as part "
+"of the current scan, every time, right now.<br> <br>"
+"Hierarchy of Status:<br> <br>"
+"1)  If the system determines no errors and there are no "
+"interlocks:<br>RUNNING, PROCESSING, GENERATING, ON, "
+"NORMAL<br> <br>2)  If the system determines an interruption "
+"event:<br>PAUSED, WAITING, PENDING, INTERLOCKED, STARTUP<br>"
+" <br>3)  If the system determines an error event:<br>"
+"ALARM, ERROR, STOPPED, HALTED, ALERT, OFF<br> <br>"
+"4)  Else<br>READY, IDLE, STANDBY, OFF, OPERATOR, "
+"MAINTENANCE, MANUAL"
+#END
+
+STR	ST1
+RUN	ProgStateMachine
+
+// Rung $Main#16
+// Offset 138
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5><FONT tsize=5>%3C%3C%3C%3C CONDUCTIVITY PID "
+"%3E%3E%3E%3E</FONT><br> <br></FONT><FONT tsize=3>Start/stop "
+"PID task for acid pump controlling conductivity.</FONT>"
+#END
+
+STR	C60
+AND	C52
+ENTASK	TaskConductvyPID	0x0	0	0x1
+COPY	0x1	"4 0x0 1 C6 1"
+
+// Rung $Main#17
+// Offset 149
+STRN	C60
+HALT	TaskConductvyPID
+COPY	0x1	"4 0x0 0 R10 1 0x0 0 C6 1"
+
+// Rung $Main#18
+// Offset 158
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C FILE LOG %3E%3E%3E%3E</FONT><br>"
+" <br>If the system is running, log data entry at "
+"pre-determined time."
+#END
+
+STR	ST1
+FILELOG	@SDCardFS	SS1	0x22	SS0	"2 D0 4 C0 3 R8 2 R13 1 R16 2 R19 1 TT0 4"	"TimeStamp() "","" D0 "","" D1 "","" D2 "","" D3 "","" C0 "","" C1 "","" C2 "","" R8 "","" R9 "","" R13 "","" R16 "","" R17 "","" R19 "","" TT0 "","" TT1 "","" TT2 "","" TT3 ""$0D$0A"""	0x0	C19	C20
+
+// Rung $Main#19
+// Offset 319
+STR	ST1
+ENTASK	TaskUpdPlatePerc	0x0	0	0x1
+
+// Rung $Main#20
+// Offset 324
+STR	ST1
+ENTASK	TaskResetPlates	0x0	0	0x1
+
+// Rung $Main#21
+// Offset 329
+STR	C61
+RUN	ProgDraining
+
+// End of Code Block $Main
+$PGMEND	$Main
+
+// Beginning of Code Block TaskGalvanostat
+$TSK	TaskGalvanostat
+
+// Rung TaskGalvanostat#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br> <br>"
+"<FONT tsize=5>TaskGalvanostat</FONT><br><FONT "
+"tsize=5></FONT> <br>"
+"<FONT tsize=3>This independent task is started and stopped "
+"via the Main control loop ladder.  The generator supporting "
+"devices are started and stopped here.  The generator flow "
+"cell has the galvanostat, ultrasonics, and polarity "
+"switching.  To disable a specific device, its values could "
+"be preconfigured as zero.</FONT>"
+#END
+
+NOP
+
+// Rung TaskGalvanostat#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=3></FONT> "
+#END
+
+STRGT	F0	0
+DUPBOOL
+AND	C32
+COPY	0x1	"4 0x0 0 C5 1 0x0 F0 R8 1"
+POPBOOL
+ANDN	C32
+COPY	0x1	"4 0x0 1 C5 1 0x0 F0 R8 1"
+
+// Rung TaskGalvanostat#3
+// Offset 23
+#BEGIN FMT_COMMENT 
+"If the target amperage is equal or below zero, make sure "
+"the galvanostat is off/disabled and amperage is zero.<br> "
+#END
+
+STRLE	F0	0
+COPY	0x1	"4 0x0 0 C5 1 0x0 0 R8 1"
+
+// End of Code Block TaskGalvanostat
+$TSKEND	TaskGalvanostat
+
+// Beginning of Code Block ProgInfo
+$PRGRM	ProgInfo
+
+// Rung ProgInfo#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br><FONT tsize=5>ProgInfo</FONT><br>"
+"<FONT tsize=5></FONT> <br>This separate independent program "
+"loops thru conditions looking for those that may need to be "
+"reported, but not necessary halt or pause the system.  The "
+"reverse condition may also be checked waiting and hoping "
+"the warning eventually clears, thus allowing the process to "
+"continue in the long term.  Or, the warnings may be reset "
+"at first and reprocessed over and over.  The warnings "
+"aren't read in order, but final assignment is ordered from "
+"those that are least important to most important so that "
+"all conditions can be checked, but leaving the routine with "
+"the most important code recorded."
+#END
+
+NOP
+
+// Rung ProgInfo#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Low Web Pages %3E%3E%3E%3E</FONT>"
+#END
+
+STR	ST1
+AND	C38
+AND	B26
+DUPBOOL
+ANDN	SE0
+AND	SE2
+AND	SE4
+DEBOUNCE	D8	D9	A26
+POPBOOL
+AND	SE0
+STRN	SE2
+ORN	SE4
+ANDSTR
+DEBOUNCE	D8	D9	A26
+
+// Rung ProgInfo#3
+// Offset 21
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Acid Tank Low "
+"%3E%3E%3E%3E</FONT><br> "
+#END
+
+STR	ST1
+AND	C9
+AND	B8
+DEBOUNCE	D8	D9	A8
+
+// Rung ProgInfo#4
+// Offset 28
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Voltage Increasing %3E%3E%3E%3E</FONT>"
+#END
+
+STR	ST1
+ANDGE	R19	R20
+AND	B10
+DEBOUNCE	D8	D9	A10
+
+// Rung ProgInfo#5
+// Offset 38
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Temperature Increasing %3E%3E%3E%3E</FONT>"
+#END
+
+STR	ST1
+ANDGE	R17	R22
+AND	B21
+DEBOUNCE	D8	D9	A21
+
+// Rung ProgInfo#6
+// Offset 48
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Outer Plates Low %25 %3E%3E%3E</FONT>"
+#END
+
+STRLE	TT9	R24
+AND	B15
+DEBOUNCE	D8	D9	A15
+
+// Rung ProgInfo#7
+// Offset 57
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Outer Plates Low %25 %3E%3E%3E</FONT>"
+#END
+
+STRLE	TT11	R24
+AND	B30
+DEBOUNCE	D8	D9	A30
+
+// Rung ProgInfo#8
+// Offset 66
+NOP
+
+// Rung ProgInfo#9
+// Offset 67
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Set Warning Codes ON/OFF "
+"%3E%3E%3E%3E</FONT> "
+#END
+
+STR	C2
+DUPBOOL
+AND	A26
+AND	B26
+COPY	0x1	"4 0x0 A_LoadWebPages D3 1 0x0 1 C23 1"
+POPBOOL
+DUPBOOL
+AND	A8
+AND	B8
+COPY	0x1	"4 0x0 A_AcidTankLow D3 1 0x0 1 C23 1"
+POPBOOL
+DUPBOOL
+AND	A10
+AND	B10
+COPY	0x1	"4 0x0 A_VoltInfo D3 1 0x0 1 C23 1"
+POPBOOL
+DUPBOOL
+AND	A21
+AND	B21
+COPY	0x1	"4 0x0 A_TempInfo D3 1 0x0 1 C23 1"
+POPBOOL
+DUPBOOL
+AND	A30
+AND	B15
+COPY	0x1	"4 0x0 A_InPlatesInfo D3 1 0x0 1 C23 1"
+POPBOOL
+DUPBOOL
+AND	A15
+AND	B30
+COPY	0x1	"4 0x0 A_OutPlatesInfo D3 1 0x0 1 C23 1"
+POPBOOL
+ANDN	A8
+ANDN	A10
+ANDN	A21
+ANDN	A15
+ANDN	A30
+COPY	0x1	"4 0x0 A_NoAlarm D3 1 0x0 0 C23 1"
+
+// End of Code Block ProgInfo
+$PGMEND	ProgInfo
+
+// Beginning of Code Block ProgErrors
+$PRGRM	ProgErrors
+
+// Rung ProgErrors#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br>"
+"<FONT tsize=5>ProgErrors</FONT><br><FONT tsize=5></FONT> "
+"<br>This separate independent program loops thru conditions "
+"looking for those that may halt the entire system.  The "
+"reverse condition may not be checked, but cleared by "
+"operators and restarted manually.  The errors are read in "
+"any order, but ordered from those that are least important "
+"to most important so that all conditions can be checked, "
+"but leaving the routine with the most important recorded "
+"code."
+#END
+
+NOP
+
+// Rung ProgErrors#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Acid Tank Empty "
+"%3E%3E%3E%3E</FONT><br> "
+#END
+
+STR	C25
+AND	B9
+DEBOUNCE	D7	32768	A9
+
+// Rung ProgErrors#3
+// Offset 7
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Reagent Tank Overflow "
+"%3E%3E%3E%3E</FONT><br> "
+#END
+
+STR	C14
+AND	B12
+DEBOUNCE	D7	32768	A12
+
+// Rung ProgErrors#4
+// Offset 13
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Voltage Too High "
+"%3E%3E%3E%3E</FONT><br> "
+#END
+
+STRGE	R19	R21
+AND	B11
+DEBOUNCE	D7	32768	A11
+
+// Rung ProgErrors#5
+// Offset 22
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Temperature Too High %3E%3E%3E%3E</FONT>"
+#END
+
+STRGE	R17	R23
+AND	B5
+DEBOUNCE	D7	32768	A5
+
+// Rung ProgErrors#6
+// Offset 31
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Startup Timeout %3E%3E%3E</FONT>"
+#END
+
+STR	T17.Done
+AND	B32
+DEBOUNCE	D7	10000	A32
+
+// Rung ProgErrors#7
+// Offset 37
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C TIMEOUTS %3E%3E%3E%3E</FONT><br> "
+#END
+
+STR	A3
+AND	B19
+ONDTMR	T7	TO0	A19
+
+// Rung ProgErrors#8
+// Offset 42
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STR	A4
+AND	B20
+ONDTMR	T8	TO1	A20
+
+// Rung ProgErrors#9
+// Offset 47
+STR	A6
+AND	B22
+ONDTMR	T9	TO3	A22
+
+// Rung ProgErrors#10
+// Offset 52
+STR	A7
+AND	B23
+ONDTMR	T15	TO2	A23
+
+// Rung ProgErrors#11
+// Offset 57
+STR	A1
+AND	B17
+ONDTMR	T10	TO4	A17
+
+// Rung ProgErrors#12
+// Offset 62
+STR	A2
+AND	B18
+ONDTMR	T11	TO5	A18
+
+// Rung ProgErrors#13
+// Offset 67
+STR	A16
+AND	B16
+ONDTMR	T12	TO6	A16
+
+// Rung ProgErrors#14
+// Offset 72
+NOP
+
+// Rung ProgErrors#15
+// Offset 73
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Set Error Codes On/Off "
+"%3E%3E%3E%3E</FONT><br><FONT tsize=5></FONT> "
+#END
+
+STR	ST1
+DUPBOOL
+AND	A12
+AND	B12
+COPY	0x1	"4 0x0 A_ReagntOverFlow D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A9
+AND	B9
+COPY	0x1	"4 0x0 A_AcidTankEmpty D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A11
+AND	B11
+COPY	0x1	"4 0x0 A_VoltAlarm D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A5
+AND	B5
+COPY	0x1	"4 0x0 A_TempAlarm D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A19
+AND	B19
+COPY	0x1	"4 0x0 A_CondRangeTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A20
+AND	B20
+COPY	0x1	"4 0x0 A_FlowRangeTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A22
+AND	B22
+COPY	0x1	"4 0x0 A_GenNotFullTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A17
+AND	B17
+COPY	0x1	"4 0x0 A_ORPRangeTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A18
+AND	B18
+COPY	0x1	"4 0x0 A_pHRangeTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A16
+AND	B16
+COPY	0x1	"4 0x0 A_OutPlatesAlarm D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A23
+AND	B23
+COPY	0x1	"4 0x0 A_GenEmptyTO D2 1 0x0 1 C21 1"
+POPBOOL
+DUPBOOL
+AND	A32
+AND	B32
+COPY	0x1	"4 0x0 A_StartupTimeout D2 1 0x0 1 C21 1"
+POPBOOL
+ANDN	A12
+ANDN	A9
+ANDN	A11
+ANDN	A5
+ANDN	A19
+ANDN	A20
+ANDN	A22
+ANDN	A17
+ANDN	A18
+ANDN	A16
+ANDN	A23
+ANDN	A32
+COPY	0x1	"4 0x0 A_NoAlarm D2 1 0x0 0 C21 1"
+
+// End of Code Block ProgErrors
+$PGMEND	ProgErrors
+
+// Beginning of Code Block TaskUltrasonics
+$TSK	TaskUltrasonics
+
+// Rung TaskUltrasonics#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br> <br>"
+"<FONT tsize=5>TaskUltrasonics</FONT><br><FONT "
+"tsize=5></FONT> <br>"
+"<FONT tsize=3>This independent task is started and stopped "
+"via the Main control loop ladder.  The generator supporting "
+"devices are started and stopped here.  The generator flow "
+"cell has the galvanostat, ultrasonics, and polarity "
+"switching.  To disable a specific device, its values could "
+"be preconfigured as zero.</FONT>"
+#END
+
+NOP
+
+// Rung TaskUltrasonics#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C ULTRASONICS - INDEPENDENT "
+"%3E%3E%3E%3E</FONT><br> <br>If values are above zero, and "
+"NOT syncing to polarity, start the interval timer, turn on "
+"ultrasonics, then start another timer for duration.  Once "
+"all complete, reset and start over.<br> "
+#END
+
+STRGT	D5	0
+ANDGT	D4	0
+ANDN	C24
+TMRDOWN	T1	D5
+
+// Rung TaskUltrasonics#3
+// Offset 12
+STRGT	D5	0
+ANDGT	D4	0
+ANDN	C24
+AND	T1.Done
+COPY	0x1	"4 0x0 1 C3 1"
+TMRDOWN	T2	D4
+
+// Rung TaskUltrasonics#4
+// Offset 29
+STRGT	D5	0
+ANDGT	D4	0
+ANDN	C24
+AND	T1.Done
+AND	T2.Done
+COPY	0x1	"4 0x0 0 C3 1"
+RSTT	T1
+
+// Rung TaskUltrasonics#5
+// Offset 46
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C ULTRASONICS - SYNCRONIZED "
+"%3E%3E%3E%3E</FONT><br> <br>If values are above zero, and "
+"syncing to polarity, set values as soon as the polarity "
+"switched.  Once that is detected, turn on ultrasonics, "
+"start a timer, then reset for next polarity event.<br> "
+#END
+
+STRGT	D4	0
+AND	C24
+ANDPD	C32
+COPY	0x1	"4 0x0 1 C37 1 0x0 1 C3 1"
+
+// Rung TaskUltrasonics#6
+// Offset 59
+STRGT	D4	0
+AND	C24
+AND	C37
+TMRDOWN	T6	D4
+AND	T6.Done
+COPY	0x1	"4 0x0 0 C37 1 0x0 0 C3 1"
+
+// End of Code Block TaskUltrasonics
+$TSKEND	TaskUltrasonics
+
+// Beginning of Code Block TaskPolarity
+$TSK	TaskPolarity
+
+// Rung TaskPolarity#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br> <br>"
+"<FONT tsize=5>TaskPolarity</FONT><br><FONT tsize=5></FONT> "
+"<br><FONT tsize=3>This independent task is started and "
+"stopped via the Main control loop ladder.  The generator "
+"supporting devices are started and stopped here.  The "
+"generator flow cell has the galvanostat, ultrasonics, and "
+"polarity switching.  To disable a specific device, its "
+"values could be preconfigured as zero.</FONT>"
+#END
+
+NOP
+
+// Rung TaskPolarity#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C SINGLE RELAY POLARITY "
+"%3E%3E%3E%3E</FONT><br> <br>If polarity duration is above "
+"zero (zero is disabled), start polarity duration timer.  If "
+"duration is above zero, and when timer finishes, toggle the "
+"output bit for polarity reversing of the galvanostat "
+"relays.  Also, set variable for setting the beginning of "
+"the polarity switching.  This will alert the galvanostat "
+"task.  This is for single relay systems."
+#END
+
+STRGT	D6	0
+ANDN	C32
+ANDN	T0.Done
+TMR	T0	D6
+
+// Rung TaskPolarity#3
+// Offset 9
+STRGT	D6	0
+ANDN	C32
+AND	T0.Done
+PONOFF	C4	ST1023
+COPY	0x1	"4 0x0 1 C32 1"
+
+// Rung TaskPolarity#4
+// Offset 22
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C H-BRIDGE RELAY POLARITY "
+"%3E%3E%3E%3E</FONT><br> <br>For H-Bridge relay sets, once "
+"main duration timer completes above, turn off galvanostat "
+"for a lower power switching of relay coils.  The "
+"galvanostat is turned off in its task when the bit "
+"CPolaritySwitch is enabled.<br> <br>"
+"If not switching, turn on appropriate relays depending upon "
+"the polarity value.  This is really only needed on startup "
+"as the logic below will handle the actual switch.  However, "
+"on first cycle, this rung sets the first relay bank."
+#END
+
+STRGT	D6	0
+ANDN	C32
+DUPBOOL
+AND	C4
+COPY	0x1	"4 0x0 1 C30 1 0x0 0 C31 1"
+POPBOOL
+ANDN	C4
+COPY	0x1	"4 0x0 0 C30 1 0x0 1 C31 1"
+
+// Rung TaskPolarity#5
+// Offset 43
+#BEGIN FMT_COMMENT 
+" If switching, give time for galvanostat(s) to turn "
+"off.<br> "
+#END
+
+STRGT	D6	0
+AND	C32
+TMRDOWN	T3	250
+
+// Rung TaskPolarity#6
+// Offset 50
+#BEGIN FMT_COMMENT 
+"Once timer finishes, turn off relay banks and start "
+"another timer to allow time for that to complete.<br> "
+#END
+
+STRGT	D6	0
+AND	C32
+AND	T3.Done
+TMRDOWN	T4	250
+COPY	0x1	"4 0x0 0 C30 1 0x0 0 C31 1"
+
+// Rung TaskPolarity#7
+// Offset 64
+#BEGIN FMT_COMMENT 
+"Once that timer completes for relays to turn off, switch "
+"relays and start another timer for that to complete.<br> "
+#END
+
+STRGT	D6	0
+AND	C32
+AND	T3.Done
+AND	T4.Done
+DUPBOOL
+AND	ST1
+TMRDOWN	T5	250
+POPBOOL
+DUPBOOL
+AND	C4
+COPY	0x1	"4 0x0 1 C30 1"
+POPBOOL
+ANDN	C4
+COPY	0x1	"4 0x0 1 C31 1"
+
+// Rung TaskPolarity#8
+// Offset 90
+#BEGIN FMT_COMMENT 
+"Once all timers complete, reset the switching variable.  "
+"This will tell the galvanostat to turn back on too.<br> "
+#END
+
+STRGT	D6	0
+AND	C32
+AND	T3.Done
+AND	T4.Done
+AND	T5.Done
+COPY	0x1	"4 0x0 0 C32 1"
+
+// End of Code Block TaskPolarity
+$TSKEND	TaskPolarity
+
+// Beginning of Code Block ProgDosingPump
+$PRGRM	ProgDosingPump
+
+// Rung ProgDosingPump#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><FONT "
+"tsize=5></FONT> <br> <br>"
+"<FONT tsize=5>ProgDosingPump</FONT><br><FONT "
+"tsize=5></FONT> <br>pending"
+#END
+
+NOP
+
+// End of Code Block ProgDosingPump
+$PGMEND	ProgDosingPump
+
+// Beginning of Code Block ProgWarnings
+$PRGRM	ProgWarnings
+
+// Rung ProgWarnings#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br>"
+"<FONT tsize=5>ProgWarnings</FONT><FONT tsize=5></FONT><br>"
+"This separate independent program loops thru conditions "
+"looking for those that may pause other parts of the "
+"system.  The reverse condition may also be checked waiting "
+"and hoping the condition eventually clears, thus allowing "
+"generation to continue.  Or, the interlock variables may be "
+"reset assuming interlocks are clear, then reprocess.  The "
+"interlocks are not read in particular order, however the "
+"final order is from least important to most important so "
+"that all conditions can be checked, but leaving the routine "
+"with the most important recorded with a final code."
+#END
+
+NOP
+
+// Rung ProgWarnings#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Flow In Rate %3E%3E%3E%3E</FONT>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+STRLT	R9	R0
+ORGT	R9	R1
+ANDSTR
+AND	B4
+DEBOUNCE	D10	D11	A4
+
+// Rung ProgWarnings#3
+// Offset 21
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Generator Cell Level "
+"%3E%3E%3E%3E</FONT><br>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+ANDN	C46
+AND	B6
+DEBOUNCE	D10	D11	A6
+
+// Rung ProgWarnings#4
+// Offset 33
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Generator Cell Level "
+"%3E%3E%3E%3E</FONT><br>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+ANDN	C10
+AND	B7
+DEBOUNCE	D10	D11	A7
+
+// Rung ProgWarnings#5
+// Offset 45
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Conductivity "
+"%3E%3E%3E%3E</FONT><br>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+STRLT	R14	R2
+ORGT	R14	R3
+ANDSTR
+AND	B3
+DEBOUNCE	D10	D11	A3
+
+// Rung ProgWarnings#6
+// Offset 65
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C pH %3E%3E%3E%3E</FONT>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+STRLT	R13	R4
+ORGT	R13	R5
+ANDSTR
+AND	B2
+DEBOUNCE	D10	D11	A2
+
+// Rung ProgWarnings#7
+// Offset 85
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C ORP %3E%3E%3E%3E</FONT><br>"
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+STRLT	R15	R6
+ORGT	R15	R7
+ANDSTR
+AND	B1
+DEBOUNCE	D10	D11	A1
+
+// Rung ProgWarnings#8
+// Offset 105
+#BEGIN FMT_COMMENT 
+" <FONT tsize=5>%3C%3C%3C%3C Set Interlock Codes ON/OFF "
+"%3E%3E%3E%3E</FONT> <br> "
+#END
+
+STR	C60
+ORE	D0	SM_Halted
+DUPBOOL
+AND	A1
+AND	B1
+COPY	0x1	"4 0x0 A_ORPRange D1 1 0x0 1 C22 1"
+POPBOOL
+DUPBOOL
+AND	A2
+AND	B2
+COPY	0x1	"4 0x0 A_pHRange D1 1 0x0 1 C22 1"
+POPBOOL
+DUPBOOL
+AND	A3
+AND	B3
+COPY	0x1	"4 0x0 A_CondRange D1 1 0x0 1 C22 1"
+POPBOOL
+DUPBOOL
+AND	A6
+AND	B6
+COPY	0x1	"4 0x0 A_GenNotFull D1 1 0x0 1 C22 1"
+POPBOOL
+DUPBOOL
+AND	A4
+AND	B4
+COPY	0x1	"4 0x0 A_FlowRange D1 1 0x0 1 C22 1"
+POPBOOL
+DUPBOOL
+AND	A7
+AND	B7
+COPY	0x1	"4 0x0 A_GenEmpty D1 1 0x0 1 C22 1"
+POPBOOL
+ANDN	A1
+ANDN	A2
+ANDN	A3
+ANDN	A6
+ANDN	A4
+ANDN	A7
+COPY	0x1	"4 0x0 A_NoAlarm D1 1 0x0 0 C22 1"
+
+// End of Code Block ProgWarnings
+$PGMEND	ProgWarnings
+
+// Beginning of Code Block $t1Second
+$TSK	$t1Second
+
+// Rung $t1Second#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br><FONT tsize=5>$t1Second</FONT><br>"
+"<FONT tsize=5></FONT> <br>This ladder task runs every "
+"second after it completes.  In other words, it doesn't run "
+"exactly every second, but exactly one second each time "
+"after it finishes, regardless of how short or long it "
+"executes.  This should be enough accuracy for total "
+"calculations."
+#END
+
+NOP
+
+// Rung $t1Second#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"Calculate Ah and KWh and Asec"
+#END
+
+STR	ST1
+AND	C2
+AND	C5
+MATH	TT1	"TT1 + (((R18 * R19) / 3600) / 1000)"
+MATH	TT0	"TT0 + (R18 / 3600)"
+MATH	TT4	"TT4 + R18"
+MATH	TT5	"TT5 + (1 / 3600)"
+MATH	TT6	"TT6 + 1"
+
+// Rung $t1Second#3
+// Offset 54
+#BEGIN FMT_COMMENT 
+"Calculate flow volume"
+#END
+
+STR	ST1
+AND	C2
+MATH	TT3	"TT3 + (R9 / 60)"
+
+// Rung $t1Second#4
+// Offset 66
+#BEGIN FMT_COMMENT 
+"Calculate the current tank level and percentage available."
+#END
+
+STR	ST1
+MATH	R30	"(F11 - R28) * F12"
+MATH	TT7	"(R30 / F13) * 100"
+
+// End of Code Block $t1Second
+$TSKEND	$t1Second
+
+// Beginning of Code Block TaskAcidPumpPID
+$TSK	TaskAcidPumpPID
+
+// Rung TaskAcidPumpPID#1
+// Offset 0
+STR	ST1
+STR	ST2
+STR	ST2
+RAMPSOAK	RS_0	AcidPumpCtlPID.SP	1	"4 1 F10 0 0"
+
+// Rung TaskAcidPumpPID#2
+// Offset 10
+STR	ST1
+FILTER	1	R13	R29
+
+// Rung TaskAcidPumpPID#3
+// Offset 14
+STR	ST1
+PID	AcidPumpCtlPID	0x62	R29	SC48	SC49	SC50	SC51	""""""	6553	32767	R10	DST511
+
+// End of Code Block TaskAcidPumpPID
+$TSKEND	TaskAcidPumpPID
+
+// Beginning of Code Block TaskLoadWebPages
+$TSK	TaskLoadWebPages
+
+// Rung TaskLoadWebPages#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>Aqua Metrology Systems SafeGuard "
+"H2O</FONT><br> <br><FONT tsize=5>TaskLoadWebPages</FONT><br>"
+"<FONT tsize=5></FONT> <br><FONT tsize=3>When the PLC "
+"restarts, the RAM file system gets cleared out, which holds "
+"the user pages for the web server.  Upon startup, during "
+"the top scan, and using a status holding bit, this task is "
+"enabled.  By recreating the subdirectory and copying the "
+"files from the SD file system back to the RAM file "
+"system.</FONT>"
+#END
+
+NOP
+
+// Rung TaskLoadWebPages#2
+// Offset 1
+STR	C38
+FILENEWFLDR	@RamFS	"""up"""	0x0	SE0	SE1
+TMRDOWN	T13	1000
+
+// Rung TaskLoadWebPages#3
+// Offset 12
+STR	C38
+AND	T13.Done
+FILECOPY	@SDCardFS	"""\up\SGH2O_PLC.html"""	@RamFS	"""\up\SGH2O_PLC.html"""	0x0	0x0	SE2	SE3
+AND	SE2
+FILECOPY	@SDCardFS	"""\up\jquery.min.js"""	@RamFS	"""\up\jquery.min.js"""	0x0	0x0	SE4	SE5
+AND	SE4
+COPY	0x1	"4 0x0 0 C38 1"
+
+// End of Code Block TaskLoadWebPages
+$TSKEND	TaskLoadWebPages
+
+// Beginning of Code Block TaskPropValvePID
+$TSK	TaskPropValvePID
+
+// Rung TaskPropValvePID#1
+// Offset 0
+STR	ST1
+STR	ST2
+STR	ST2
+RAMPSOAK	RS_1	PropValveCtlPID.SP	1	"4 1 F15 0 0"
+
+// Rung TaskPropValvePID#2
+// Offset 10
+STR	ST1
+FILTER	1	R9	R32
+
+// Rung TaskPropValvePID#3
+// Offset 14
+STR	ST1
+PID	PropValveCtlPID	0x60	R32	SC52	SC53	SC54	SC55	""""""	6553	32767	R31	DST511
+
+// End of Code Block TaskPropValvePID
+$TSKEND	TaskPropValvePID
+
+// Beginning of Code Block TaskConductvyPID
+$TSK	TaskConductvyPID
+
+// Rung TaskConductvyPID#1
+// Offset 0
+STR	ST1
+STR	ST2
+STR	ST2
+RAMPSOAK	RS_2	ConductvyCtlPID.SP	1	"4 1 F14 0 0"
+
+// Rung TaskConductvyPID#2
+// Offset 10
+STR	ST1
+FILTER	1	R14	R33
+
+// Rung TaskConductvyPID#3
+// Offset 14
+STR	ST1
+PID	ConductvyCtlPID	0x60	R33	SC56	SC57	SC58	SC59	""""""	6553	32767	R10	DST511
+
+// End of Code Block TaskConductvyPID
+$TSKEND	TaskConductvyPID
+
+// Beginning of Code Block TaskRoutineTest
+$TSK	TaskRoutineTest
+
+// Rung TaskRoutineTest#1
+// Offset 0
+STRPD	MC401
+COPY	0x1	"4 0x0 1 MC402 1 0x0 MHR201 R37 1 0x0 0 MC404 1"
+
+// Rung TaskRoutineTest#2
+// Offset 10
+STRN	MC403
+ANDN	MC404
+DUPBOOL
+ANDE	R37	4
+RUN	ProgRinsing
+POPBOOL
+ANDE	R37	1
+RUN	ProgDraining
+
+// Rung TaskRoutineTest#3
+// Offset 26
+STR	MC403
+ANDN	MC404
+DUPBOOL
+ANDE	R37	4
+RUN	ProgAbortRinsing
+POPBOOL
+ANDE	R37	1
+RUN	ProgAbortDrain
+
+// Rung TaskRoutineTest#4
+// Offset 42
+#BEGIN FMT_COMMENT 
+"<B><I>Handshake Step 4 (Optional)</I>*</B><br>"
+"<I>The GUI may send a request to stop the current routine. "
+"This action is immediate but optional.</I><br>"
+"<!-- notionvc: 8f5b29c4-3e89-4d80-9e0b-ba815f8c4503 "
+"--><B></B><br><B>Handshake Step 5</B><br>"
+"<I>The PLC sends the End signal. This action is immediate "
+"for the PLC. The GUI waits for the PLC to signal the end of "
+"the routine, either automatically or upon receiving an "
+"abort request. This action requires waiting.</I>"
+#END
+
+STR	MC403
+ANDN	MC405
+COPY	0x1	"4 0x0 1 MC404 1"
+
+// Rung TaskRoutineTest#5
+// Offset 49
+#BEGIN FMT_COMMENT 
+"<B>Handshake Step 6</B><br>"
+"<I>The GUI acknowledges the end of the routine. This action "
+"is immediate. The PLC reads the acknowledgement via EndACK "
+"and sets EndCMD to 0.</I>"
+#END
+
+STR	MC404
+AND	MC405
+COPY	0x1	"4 0x0 0 MC404 1"
+
+// Rung TaskRoutineTest#6
+// Offset 56
+#BEGIN FMT_COMMENT 
+"<B>Step 7</B><br>"
+"<I>The GUI sees that the PLC sets EndCMD to 0 and sets "
+"EndAck to 0. The PLC waits for the GUI to set StartCMD to 0 "
+"and then sets StartACK to 0.</I>"
+#END
+
+STRN	MC401
+COPY	0x1	"4 0x0 0 MC402 1"
+
+// End of Code Block TaskRoutineTest
+$TSKEND	TaskRoutineTest
+
+// Beginning of Code Block TaskUpdPlatePerc
+$TSK	TaskUpdPlatePerc
+
+// Rung TaskUpdPlatePerc#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"Consumption ratio per second"
+#END
+
+STRPD	ST4
+MATH	R38	"(1.78 * F0) / 3600.0"
+
+// Rung TaskUpdPlatePerc#2
+// Offset 14
+#BEGIN FMT_COMMENT 
+"Total mass consumed of outter plates"
+#END
+
+STRPD	ST4
+ANDE	SM_Running	D0
+MATH	TT8	"MIN(TT8 + R38, F18)"
+
+// Rung TaskUpdPlatePerc#3
+// Offset 31
+#BEGIN FMT_COMMENT 
+"Outter plates %25 left"
+#END
+
+STRPD	ST4
+MATH	TT9	"(100 * (F18 - TT8)) / F18"
+
+// Rung TaskUpdPlatePerc#4
+// Offset 45
+#BEGIN FMT_COMMENT 
+"Total mass consumed of inner plates. Consumption ratio is "
+"2 times as large"
+#END
+
+STRPD	ST4
+ANDE	SM_Running	D0
+MATH	TT10	"MIN(TT10 + (2 * R38), F18)"
+
+// Rung TaskUpdPlatePerc#5
+// Offset 64
+#BEGIN FMT_COMMENT 
+"Inner plates %25 left"
+#END
+
+STRPD	ST4
+MATH	TT11	"(100 * (F18 - TT10)) / F18"
+
+// End of Code Block TaskUpdPlatePerc
+$TSKEND	TaskUpdPlatePerc
+
+// Beginning of Code Block ProgNotices
+$PRGRM	ProgNotices
+
+// Rung ProgNotices#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C%3C Reagent Tank Full Condition %3E%3E%3E%3E</FONT>"
+#END
+
+STRE	D0	SM_Running
+ORE	D0	SM_Idle
+ANDGE	TT7	F19
+AND	B27
+DEBOUNCE	D16	10000	A27
+
+// Rung ProgNotices#2
+// Offset 19
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Reagent Tank Empty Condition %3E%3E%3E</FONT>"
+#END
+
+STRE	D0	SM_Standby
+ANDLE	TT7	F20
+AND	B28
+DEBOUNCE	D16	10000	A28
+
+// Rung ProgNotices#3
+// Offset 33
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Reagent Tank Restart Hysteresis "
+"Condition %3E%3E%3E</FONT>"
+#END
+
+STRE	D0	SM_Starting
+ANDGE	TT7	F21
+AND	B29
+DEBOUNCE	D16	10000	A29
+
+// Rung ProgNotices#4
+// Offset 47
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Inner Plates Fully Depleted %3E%3E</FONT>"
+#END
+
+STRLE	TT11	0.05
+DEBOUNCE	D16	10000	A31
+
+// Rung ProgNotices#5
+// Offset 56
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Outer Plates Fully Depleted %3E%3E%3E</FONT>"
+#END
+
+STRLE	TT9	0.05
+DEBOUNCE	D16	10000	A16
+
+// Rung ProgNotices#6
+// Offset 65
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>%3C%3C%3C Set Alarm Code And Alarm Active "
+"Bit %3E%3E</FONT>"
+#END
+
+STRE	D0	SM_Running
+ORE	D0	SM_Idle
+AND	A27
+AND	B27
+COPY	0x1	"4 0x0 N_ReagTankFull D18 1 0x0 1 C58 1"
+
+// Rung ProgNotices#7
+// Offset 85
+STRE	D0	SM_Standby
+AND	A28
+AND	B28
+COPY	0x1	"4 0x0 N_ReagTankEmpty D18 1 0x0 1 C58 1"
+
+// Rung ProgNotices#8
+// Offset 100
+STRE	D0	SM_Starting
+AND	A29
+AND	B29
+COPY	0x1	"4 0x0 N_ReagTankOverHy D18 1 0x0 1 C58 1"
+
+// Rung ProgNotices#9
+// Offset 115
+STRE	D0	SM_Running
+AND	A31
+AND	B31
+COPY	0x1	"4 0x0 N_InPlates D18 1 0x0 1 C58 1"
+
+// Rung ProgNotices#10
+// Offset 130
+STRE	D0	SM_Running
+AND	A16
+AND	B15
+COPY	0x1	"4 0x0 N_OutPlates D18 1 0x0 1 C58 1"
+
+// Rung ProgNotices#11
+// Offset 145
+#BEGIN FMT_COMMENT 
+"<FONT tsize=4>%3C%3C Deactivate Notice Codes %3E%3E</FONT>"
+#END
+
+STRN	A27
+ANDN	A28
+ANDN	A29
+ANDN	A16
+ANDN	A31
+COPY	0x1	"4 0x0 A_NoAlarm D18 1 0x0 0 C58 1"
+
+// End of Code Block ProgNotices
+$PGMEND	ProgNotices
+
+// Beginning of Code Block ProgStateMachine
+$PRGRM	ProgStateMachine
+
+// Rung ProgStateMachine#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"System is On if it is remotely enabled and locally enabled"
+#END
+
+STR	C0
+STR	C1
+OR	C62
+ANDSTR
+ANDN	MC8
+OUT	C2
+
+// Rung ProgStateMachine#2
+// Offset 6
+STRE	D0	SM_Stopped
+AND	C2
+COPY	0x1	"4 0x0 SM_Starting D0 1"
+
+// Rung ProgStateMachine#3
+// Offset 19
+STRE	D0	SM_Starting
+DUPBOOL
+AND	ST1
+TMRDOWN	T17	180000
+POPBOOL
+DUPBOOL
+ANDE	D2	A_StartupTimeout
+COPY	0x1	"4 0x0 SM_Halted D0 1"
+POPBOOL
+DUPBOOL
+ANDNE	D18	N_ReagTankOverHy
+DUPBOOL
+ANDE	D2	A_NoAlarm
+ANDE	D1	A_NoAlarm
+TMRDOWN	T14	10000
+POPBOOL
+AND	T14.Done
+COPY	0x1	"4 0x0 SM_Running D0 1"
+POPBOOL
+ANDE	D18	N_ReagTankOverHy
+COPY	0x1	"4 0x0 SM_Standby D0 1"
+
+// Rung ProgStateMachine#4
+// Offset 85
+STRE	D0	SM_Running
+DUPBOOL
+ANDE	D2	A_NoAlarm
+DUPBOOL
+ANDE	D1	A_NoAlarm
+ANDE	D18	N_ReagTankFull
+COPY	0x1	"4 0x0 SM_Standby D0 1"
+POPBOOL
+ANDNE	D1	A_NoAlarm
+COPY	0x1	"4 0x0 SM_Idle D0 1"
+POPBOOL
+ANDNE	D2	A_NoAlarm
+COPY	0x1	"4 0x0 SM_Halted D0 1"
+
+// Rung ProgStateMachine#5
+// Offset 140
+STRE	D0	SM_Idle
+DUPBOOL
+ANDE	D2	A_NoAlarm
+ANDE	D1	A_NoAlarm
+DUPBOOL
+ANDE	D18	N_ReagTankFull
+COPY	0x1	"4 0x0 SM_Standby D0 1"
+POPBOOL
+ANDNE	D18	N_ReagTankFull
+COPY	0x1	"4 0x0 SM_Running D0 1"
+POPBOOL
+ANDNE	D2	A_NoAlarm
+COPY	0x1	"4 0x0 SM_Halted D0 1"
+
+// Rung ProgStateMachine#6
+// Offset 195
+STRE	D0	SM_Standby
+DUPBOOL
+ANDN	MC404
+COPY	0x1	"4 0x0 1 C61 1"
+POPBOOL
+AND	MC404
+COPY	0x1	"4 0x0 0 C61 1"
+ANDE	D18	N_ReagTankEmpty
+COPY	0x1	"4 0x0 SM_Starting D0 1 0x0 0 MC404 1"
+
+// Rung ProgStateMachine#7
+// Offset 227
+STRE	D0	SM_Stopping
+DUPBOOL
+ANDN	MC404
+COPY	0x1	"4 0x0 1 C61 1"
+POPBOOL
+AND	MC404
+DUPBOOL
+AND	C0
+COPY	0x1	"4 0x0 0 MC404 1 0x0 0 C61 1 0x0 SM_Stopped D0 1"
+POPBOOL
+ANDN	C0
+COPY	0x1	"4 0x0 0 MC404 1 0x0 0 C61 1 0x0 SM_RemoteDisable D0 1"
+
+// Rung ProgStateMachine#8
+// Offset 263
+STRE	D0	SM_RemoteDisable
+AND	C0
+DUPBOOL
+ANDE	D2	A_NoAlarm
+COPY	0x1	"4 0x0 SM_Stopped D0 1"
+POPBOOL
+ANDNE	D2	A_NoAlarm
+COPY	0x1	"4 0x0 SM_Halted D0 1"
+
+// Rung ProgStateMachine#9
+// Offset 295
+STRE	D0	SM_Halted
+AND	MC9
+COPY	0x1	"4 0x0 SM_Stopped D0 1 0x0 0 MC9 1"
+
+// Rung ProgStateMachine#10
+// Offset 309
+STRN	C2
+DUPBOOL
+ANDNE	D0	SM_Stopped
+ANDNE	D0	SM_Halted
+ANDNE	D0	SM_RemoteDisable
+COPY	0x1	"4 0x0 SM_Stopping D0 1"
+POPBOOL
+STRE	D0	SM_Stopped
+ORE	D0	SM_Halted
+ANDSTR
+ANDN	C0
+COPY	0x1	"4 0x0 SM_RemoteDisable D0 1"
+
+// Rung ProgStateMachine#11
+// Offset 353
+STRE	D0	SM_Starting
+ORE	D0	SM_Running
+ORE	D0	SM_Idle
+OUT	C60
+
+// Rung ProgStateMachine#12
+// Offset 369
+STR	ST1
+COPY	0x1	"4 0x0 D0 MHR101 1"
+
+// End of Code Block ProgStateMachine
+$PGMEND	ProgStateMachine
+
+// Beginning of Code Block ProgDraining
+$PRGRM	ProgDraining
+
+// Rung ProgDraining#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<B>Step 5</B><br>"
+"<I>The PLC sends the End signal. This action is immediate "
+"for the PLC. The GUI waits for the PLC to signal the end of "
+"the routine, either automatically or upon receiving an "
+"abort request. This action requires waiting.</I>"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 1 MHR202 1"
+
+// Rung ProgDraining#2
+// Offset 7
+STR	C10
+COPY	0x1	"4 0x0 1 C7 1"
+
+// Rung ProgDraining#3
+// Offset 13
+STRN	C10
+COPY	0x1	"4 0x0 0 C7 1"
+
+// Rung ProgDraining#4
+// Offset 19
+STRN	C10
+ANDN	C7
+COPY	0x1	"4 0x0 1 MC404 1"
+
+// Rung ProgDraining#5
+// Offset 26
+STR	MC404
+EXIT
+
+// End of Code Block ProgDraining
+$PGMEND	ProgDraining
+
+// Beginning of Code Block ProgAbortDrain
+$PRGRM	ProgAbortDrain
+
+// Rung ProgAbortDrain#1
+// Offset 0
+STR	ST1
+COPY	0x1	"4 0x0 0 C7 1"
+
+// Rung ProgAbortDrain#2
+// Offset 6
+STR	C7
+COPY	0x1	"4 0x0 1 MC404 1"
+
+// Rung ProgAbortDrain#3
+// Offset 12
+STR	MC404
+EXIT
+
+// End of Code Block ProgAbortDrain
+$PGMEND	ProgAbortDrain
+
+// Beginning of Code Block ProgAbortRinsing
+$PRGRM	ProgAbortRinsing
+
+// Rung ProgAbortRinsing#1
+// Offset 0
+STR	ST1
+COPY	0x1	"4 0x0 1 MC404 1"
+
+// Rung ProgAbortRinsing#2
+// Offset 6
+STR	MC404
+EXIT
+
+// End of Code Block ProgAbortRinsing
+$PGMEND	ProgAbortRinsing
+
+// Beginning of Code Block ProgRinsing
+$PRGRM	ProgRinsing
+
+// Rung ProgRinsing#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><FONT "
+"tsize=5></FONT> <br> <br>"
+"<FONT tsize=5>TaskRinsing</FONT><br><FONT tsize=5></FONT> "
+"<br>pending"
+#END
+
+STR	ST1
+COPY	0x1	"4 0x0 1 MHR202 1"
+
+// Rung ProgRinsing#2
+// Offset 7
+STRN	MC404
+COPY	0x1	"4 0x0 1 C16 1 0x0 1 C49 1"
+ENTASK	TaskPropValvePID	0x0	0	0x1
+
+// Rung ProgRinsing#3
+// Offset 18
+STR	X2
+AND	C16
+AND	C49
+COPY	0x1	"4 0x0 1 C3 1"
+
+// Rung ProgRinsing#4
+// Offset 26
+STR	C3
+TMRDOWN	T16	10000
+
+// Rung ProgRinsing#5
+// Offset 29
+STR	T16.Done
+COPY	0x1	"4 0x0 0 C16 1 0x0 0 C49 1 0x0 0 C3 1"
+HALT	TaskPropValvePID
+
+// Rung ProgRinsing#6
+// Offset 38
+STR	T16.Done
+ANDN	C16
+COPY	0x1	"4 0x0 1 MC404 1"
+
+// End of Code Block ProgRinsing
+$PGMEND	ProgRinsing
+
+// Beginning of Code Block TaskResetPlates
+$TSK	TaskResetPlates
+
+// Rung TaskResetPlates#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"Reset Media Event"
+#END
+
+STR	C29
+ANDPD	MC6
+MOVE	0	TT10
+MOVE	0	TT8
+COPY	0x1	"4 0x0 0 TT0 1 0x0 0 TT4 1 0x0 0 TT1 1 0x0 0 TT6 1 0x0 0 TT5 1"
+COPY	0x1	"4 0x0 0 MC6 1"
+
+// Rung TaskResetPlates#2
+// Offset 26
+#BEGIN FMT_COMMENT 
+"Reset Media Event"
+#END
+
+STR	C29
+ANDPD	MC7
+MOVE	0	TT10
+COPY	0x1	"4 0x0 0 TT0 1 0x0 0 TT4 1 0x0 0 TT1 1 0x0 0 TT6 1 0x0 0 TT5 1"
+COPY	0x1	"4 0x0 0 MC7 1"
+
+// End of Code Block TaskResetPlates
+$TSKEND	TaskResetPlates
+
+// Beginning of Code Block $tBottomOfScan
+$TSK	$tBottomOfScan
+
+// Rung $tBottomOfScan#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"<FONT tsize=5>AMS SafeGuard H2O</FONT><br>"
+"<FONT tsize=5></FONT> <br>"
+"<FONT tsize=5>$tBottomOfScan</FONT><br><FONT "
+"tsize=5></FONT> <br>"
+"This is the last ladder task after the main ladder.  By "
+"taking the necessary working memory variables and writing "
+"them to the physical outputs and/or Modbus and/or any other "
+"device requiring updates."
+#END
+
+NOP
+
+// Rung $tBottomOfScan#2
+// Offset 1
+#BEGIN FMT_COMMENT 
+"Write local memory bit variables (C) into digital outputs (Y)."
+#END
+
+STR	ST1
+MAPIO	"2 C2 Y0 C21 Y1 C22 Y2 C23 Y3 C6 Y8 C7 Y7 C8 Y6 C17 Y11 C18 Y12"
+
+// Rung $tBottomOfScan#3
+// Offset 23
+#BEGIN FMT_COMMENT 
+"Set the inlet valve on/off only if enabled."
+#END
+
+STR	ST1
+DUPBOOL
+AND	C48
+MAPIO	"2 C16 Y10"
+POPBOOL
+ANDN	C48
+COPY	0x1	"4 0x0 0 Y10 1"
+
+// Rung $tBottomOfScan#4
+// Offset 38
+#BEGIN FMT_COMMENT 
+"Set green button LED"
+#END
+
+STR	ST1
+AND	C2
+OUT	Y13
+
+// Rung $tBottomOfScan#5
+// Offset 41
+#BEGIN FMT_COMMENT 
+"Set red button LED"
+#END
+
+STR	ST1
+ANDN	C2
+OUT	Y14
+
+// Rung $tBottomOfScan#6
+// Offset 44
+#BEGIN FMT_COMMENT 
+"Set galvanostat output if enabled"
+#END
+
+STR	ST1
+AND	C41
+SCALE	R8	SC36	SC37	SC38	SC39	WY0
+MAPIO	"2 C5 Y28"
+
+// Rung $tBottomOfScan#7
+// Offset 57
+#BEGIN FMT_COMMENT 
+"Set galvanostat output enable for 10V models."
+#END
+
+STR	ST1
+AND	C41
+DUPBOOL
+AND	C5
+COPY	0x1	"4 0x0 0 WY5 1"
+POPBOOL
+ANDN	C5
+COPY	0x1	"4 0x0 32767 WY5 1"
+
+// Rung $tBottomOfScan#8
+// Offset 75
+#BEGIN FMT_COMMENT 
+"Set ultrasonic output if enabled"
+#END
+
+STR	ST1
+AND	C43
+MAPIO	"2 C3 Y24"
+
+// Rung $tBottomOfScan#9
+// Offset 82
+#BEGIN FMT_COMMENT 
+"Set polarity output if enabled"
+#END
+
+STR	ST1
+AND	C42
+MAPIO	"2 C4 Y5 C30 Y16 C30 Y17 C31 Y20 C31 Y21"
+
+// Rung $tBottomOfScan#10
+// Offset 97
+#BEGIN FMT_COMMENT 
+"Set acid pump rate from PID result via pH."
+#END
+
+STR	ST1
+DUPBOOL
+AND	C34
+AND	C50
+COPY	0x1	"4 0x0 R10 WY1 1"
+POPBOOL
+ANDN	C34
+COPY	0x1	"4 0x0 0 WY1 1"
+
+// Rung $tBottomOfScan#11
+// Offset 115
+#BEGIN FMT_COMMENT 
+"Set proportional valve rate from PID result via flow rate."
+#END
+
+STR	ST1
+DUPBOOL
+AND	C49
+AND	C51
+COPY	0x1	"4 0x0 R31 WY4 1"
+POPBOOL
+ANDN	C49
+COPY	0x1	"4 0x0 0 WY4 1"
+
+// Rung $tBottomOfScan#12
+// Offset 133
+#BEGIN FMT_COMMENT 
+"Set acid pump rate from PID result via conductivity."
+#END
+
+STR	ST1
+DUPBOOL
+AND	C34
+AND	C52
+COPY	0x1	"4 0x0 R10 WY1 1"
+POPBOOL
+ANDN	C34
+COPY	0x1	"4 0x0 0 WY1 1"
+
+// Rung $tBottomOfScan#13
+// Offset 151
+#BEGIN FMT_COMMENT 
+"Set modbus alarm bits for UI"
+#END
+
+STR	C29
+ANDNE	D0	SM_Starting
+MAPIO	"2 A1 MC101 A2 MC102 A3 MC103 A4 MC104 A5 MC105 A6 MC106 A22 MC122 A19 MC119 A20 MC120 A7 MC107 A23 MC123 A27 MC127 A28 MC128 A29 MC129 A15 MC115 A16 MC116 A30 MC130 A31 MC131 A32 MC132 A33 MC133"
+
+// Rung $tBottomOfScan#14
+// Offset 200
+#BEGIN FMT_COMMENT 
+"Set modbus sensor bits for UI"
+#END
+
+STR	C29
+MAPIO	"2 C53 MC212 C54 MC213 C9 MC214 C46 MC215 C10 MC216"
+
+// Rung $tBottomOfScan#15
+// Offset 214
+#BEGIN FMT_COMMENT 
+"Set modbus sensor gauge values for UI"
+#END
+
+STR	C29
+MATH	MHR1	"ROUND(R19 * 100)"
+MATH	MHR2	"ROUND(R18 * 100)"
+MATH	MHR3	"ROUND(R13 * 100)"
+MATH	MHR4	"ROUND(R9 * 100)"
+MATH	MHR6	"ROUND(R16 * 100)"
+MATH	MHR7	"ROUND(R17 * 100)"
+MATH	MHR8	"ROUND(TT7 * 100)"
+MATH	MHR9	"ROUND(R14 * 100)"
+MATH	MHR10	"ROUND(TT9 * 100)"
+MATH	MHR11	"ROUND(TT11 * 100)"
+
+// End of Code Block $tBottomOfScan
+$TSKEND	$tBottomOfScan
+
+#BEGIN ELEMENT_DOC
+"X0","FLAGS = REST_READONLY","XRemoteEnable","Input / Bit","Remote enable"
+"X2","FLAGS =","XGenLevelHiOn","Input / Bit","generator flow cell level sensor hi"
+"X3","FLAGS = REST_READONLY","XRemoteOn","Input / Bit","Remote Start (Requires Remote enable to be On)"
+"X4","FLAGS =","XReagntLoLoOn","Input / Bit","reagent tank level sensor lo-lo"
+"X5","FLAGS =","XReagntLoOn","Input / Bit","reagent tank level sensor lo"
+"X6","FLAGS =","XReagntHiOn","Input / Bit","reagent tank level sensor hi"
+"X7","FLAGS =","XReagntHiHiOn","Input / Bit","reagent tank level sensor hi-hi"
+"X8","FLAGS =","XGenLevelLoOn","Input / Bit","vent overflow level sensor hi"
+"X10","FLAGS =","XGreenButton","Input / Bit","push button to start machine or reflect started"
+"X11","FLAGS =","XRedButton","Input / Bit","push button to stop machine or reflect stopped"
+"Y0","FLAGS =","YSystemOn","Output / Bit","status signal for system running"
+"Y1","FLAGS =","YErrorOn","Output / Bit","status signal for errors exist"
+"Y2","FLAGS =","YWarnOn","Output / Bit","status signal for warnings exist"
+"Y3","FLAGS =","YInfoOn","Output / Bit","status signal for info exist"
+"Y4","FLAGS =","YAcidPumpOn","Output / Bit","acid pump on/off"
+"Y5","FLAGS =","YPolarityOn","Output / Bit","polarity on/off"
+"Y6","FLAGS =","YReagntPumpOn","Output / Bit","reagent pump on/off"
+"Y7","FLAGS =","YDrainPumpOn","Output / Bit","drain pump on/off"
+"Y10","FLAGS =","YInletValveOn","Output / Bit","inlet valve on/off"
+"Y11","FLAGS =","YGenValveOn","Output / Bit","generator cell drain valve on/off"
+"Y13","FLAGS =","YGreenButtonOn","Output / Bit","panel button LED to reflect running"
+"Y14","FLAGS =","YRedButtonOn","Output / Bit","panel button LED to reflect stopped"
+"Y16","FLAGS =","YPolarity1OnR1","Output / Bit","h-bridge polarity position 1 on/off relay 1"
+"Y17","FLAGS =","YPolarity1OnR3","Output / Bit","h-bridge polarity position 1 on/off relay 3"
+"Y20","FLAGS =","YPolarity2OnR2","Output / Bit","h-bridge polarity position 2 on/off relay 2"
+"Y21","FLAGS =","YPolarity2OnR4","Output / Bit","h-bridge polarity position 2 on/off relay 4"
+"Y24","FLAGS =","YUltrasonicsOn","Output / Bit","ultrasonics on/off"
+"Y28","FLAGS =","YGalvanostatOn","Output / Bit","galvanostat on/off"
+"WX1","FLAGS =","WXTempOutlet","Input / SWord","raw temperature outlet value (see module/scale for ranges)"
+"WX2","FLAGS =","WXTankLevel","Input / SWord","raw level sensor value (see module/scale for ranges)"
+"WX3","FLAGS =","WXpH","Input / SWord","raw pH sensor value (see module/scale for ranges)"
+"WX4","FLAGS =","WXConductivity","Input / SWord","raw conductivity sensor value (see module/scale for ranges)"
+"WX20","FLAGS =","WXFlowInRate","Input / SWord","raw flow rate inlet value (see module/scale for ranges)"
+"WX21","FLAGS =","WXTempInlet","Input / SWord","raw temperature of inlet value (see module/scale for ranges)"
+"WX22","FLAGS =","WXVoltFeedback","Input / SWord","raw voltage feedback from galvanostat (see module/scale for ranges)"
+"WX23","FLAGS =","WXAmpFeedback","Input / SWord","raw galvanostat amperage feedback value (see module/scale for ranges)"
+"WY0","FLAGS =","WYAmperageOut","Output / SWord","scaled galvanostat out (see module/scale for ranges)"
+"WY1","FLAGS =","WYAcidPumpRate","Output / SWord","scaled acid pump rate (see module/scale for ranges)"
+"WY4","FLAGS =","WYPropValve","Output / SWord","scaled proportional valve out (see module/scale for ranges)"
+"WY5","FLAGS =","WYGalvanostatOn","Output / SWord","galvanostat on/off for models requiring full 10V signal"
+"C0","FLAGS = REST_READONLY","CRemoteEnable","Working / Bit","Remote enable"
+"C1","FLAGS =","CLocalOn","Working / Bit","local signal ok to start"
+"C2","FLAGS =","CSystemOn","Working / Bit","system is on"
+"C3","FLAGS =","CUltrasonicsOn","Working / Bit","ultrasonics start/stop"
+"C4","FLAGS =","CPolarityOn","Working / Bit","polarity start/stop"
+"C5","FLAGS =","CGalvanostatOn","Working / Bit","galvanostat start/stop"
+"C6","FLAGS =","CAcidPumpOn","Working / Bit","acid pump start/stop"
+"C7","FLAGS =","CDrainPumpOn","Working / Bit","drain pump start/stop"
+"C8","FLAGS =","CReagntPumpOn","Working / Bit","reagent pump start/stop"
+"C9","FLAGS =","CAcidLevelLoOn","Working / Bit","acid tank level sensor lo"
+"C10","FLAGS =","CGenLevelLo","Working / Bit","generator cell level sensor lo"
+"C11","FLAGS =","CReagntLoLoOn","Working / Bit","reagent tank level sensor lo-lo"
+"C12","FLAGS =","CReagntLoOn","Working / Bit","reagent tank level sensor lo"
+"C13","FLAGS =","CReagntHiOn","Working / Bit","reagent tank level sensor hi"
+"C14","FLAGS =","CReagntHiHiOn","Working / Bit","reagent tank level sensor hi-hi"
+"C15","FLAGS =","CVentLevelOn","Working / Bit","vent overflow level sensor hi"
+"C16","FLAGS =","CInletValveOn","Working / Bit","inlet valve"
+"C17","FLAGS =","CGenValveOn","Working / Bit","generator cell drain valve"
+"C18","FLAGS =","CReagntValveOn","Working / Bit","reagent tank drain valve"
+"C19","FLAGS =","CFileLogSuccess","Working / Bit","file log success"
+"C20","FLAGS =","CFileLogError","Working / Bit","file log error"
+"C21","FLAGS =","CErrorOn","Working / Bit","error events exist"
+"C22","FLAGS =","CWarnOn","Working / Bit","warning events exist"
+"C23","FLAGS =","CInfoOn","Working / Bit","info events exist"
+"C24","FLAGS =","CPolaritySyncUS","Config / Bit","ultrasonics synced with polarity switch"
+"C25","FLAGS =","CAcidLevelLoLoOn","Working / Bit","acid tank level sensor lo-lo"
+"C26","FLAGS =","CEnableErrors","Config / Bit","run with/without error checking"
+"C27","FLAGS = REST_READONLY","CEnableWarnings","Config / Bit","run with/without warnings checking"
+"C28","FLAGS = REST_READONLY","CEnableInfo","Config / Bit","run with/without info checking"
+"C29","FLAGS =","CEnableModbus","Working / Bit","run with/without Modbus calls"
+"C30","FLAGS =","CPolarity1On","Working / Bit","h-bridge polarity position 1"
+"C31","FLAGS =","CPolarity2On","Working / Bit","h-bridge polarity position 2"
+"C32","FLAGS =","CPolaritySwitch","Working / Bit","boolean during polarity h bridge switching"
+"C33","FLAGS =","CDemoMode","Config / Bit","turn demo valves on/off"
+"C34","FLAGS =","CEnableAcidPump","Config / Bit","run with/without acid pump"
+"C35","FLAGS =","CGreenPressed","Working / Bit","stores if green button pressed last"
+"C36","FLAGS =","CRedPressed","Working / Bit","stores if red button pressed last"
+"C37","FLAGS =","CPolSyncStart","Working / Bit","true for the duration of ultrasonics to sync with polarity"
+"C38","FLAGS =","CLoadWebPages","on/off bit","true to refreshing web user pages from SD card to RAM"
+"C39","FLAGS =","CEnableRandom","Config / Bit","run with/without random sensor values"
+"C40","FLAGS =","CHmiOn","Working / Bit","hmi signal ok to start"
+"C41","FLAGS =","CEnableGalvan","Config / Bit","run with/without galvanostat"
+"C42","FLAGS =","CEnablePolarity","Config / Bit","run with/without polarity"
+"C43","FLAGS =","CEnableUltraSon","Config / Bit","run with/without ultrasonics"
+"C44","FLAGS =","CPrcsngStartStop","Working / Bit","whether a start or a stop command are being processed"
+"C45","FLAGS =","CGalvHasAmpFB","Config / Bit","whether galvanostat gives an amperage feedback"
+"C46","FLAGS =","CGenLevelHi","Working / Bit","generator cell level sensor hi"
+"C47","FLAGS =","CEnableUSFan","Config / Bit","run with/without ultrasonic fan"
+"C48","FLAGS =","CEnableInletVal","Config / Bit","run with/without inlet valve"
+"C49","FLAGS =","CPropValveOn","Working / Bit","proportional valve"
+"C50","FLAGS =","CEnableAcidPID","Config / Bit","run with/without acid pump PID"
+"C51","FLAGS =","CEnablePropPID","Config / Bit","run with/without proportional valve PID"
+"C52","FLAGS =","CEnableCondPID","Config / Bit","run with/without conductivity PID"
+"C53","FLAGS =","CLeakSensor","Working / Bit","leak sensor on/off"
+"C54","FLAGS =","CAcidLevelHi","Working / Bit","acid tank level hi"
+"C56","FLAGS =","CEnableCondPPID","Config / Bit","run with/without conductivity pulse PID"
+"C57","FLAGS =","CStopDrain","",""
+"C58","FLAGS =","CNoticeOn","","Bit for whether or not there is an active notice"
+"C59","FLAGS =","CEnableNotices","",""
+"C60","FLAGS =","CFlowingStates","","The system is on and water is flowing but not necessarily generating"
+"C61","FLAGS = REST_READONLY","C61_Drain","",""
+"C62","FLAGS = REST_READONLY","CRemoteOn","","Remote Start"
+"D0","FLAGS =","DSystemMode","Default / SDWord","latest mode (see SystemModes)"
+"D1","FLAGS =","DWarnCode","Default / SDWord","latest warning (see WarningCodes)"
+"D2","FLAGS =","DErrorCode","Default / SDWord","latest error (see ErrorCodes)"
+"D3","FLAGS =","DInfoCode","Default / SDWord","latest info (see InfoCodes)"
+"D4","FLAGS =","DUltraDuration","Default / SDWord","ultrasonic duration off in milliseconds (o = disabled/off)"
+"D5","FLAGS =","DUltraInterval","Default / SDWord","ultrasonic interval on in milliseconds (o = disabled/off)"
+"D6","FLAGS =","DPolarityCycle","Default / SDWord","polarity cycle time in milliseconds (0 = disabled/off)"
+"D7","FLAGS =","DErrorDebounOn","Default / SDWord","error debounce on stability in milliseconds"
+"D8","FLAGS =","DInfoDebounOn","Default / SDWord","info debounce on stability in milliseconds"
+"D9","FLAGS = REST_READONLY","DInfoDebounOff","Default / SDWord","info debounce off stability in milliseconds"
+"D10","FLAGS = REST_READONLY","DWarnDebounOn","Default / SDWord","warning debounce on stability in milliseconds"
+"D11","FLAGS = REST_READONLY","DWarnDebounOff","Default / SDWord","warning debounce off stability in milliseconds"
+"D12","FLAGS =","DErrorDebounOff","Default / SDWord","error debounce off stability in milliseconds"
+"D13","FLAGS =","DInputDebounOn","Default / SDWord","digital input debounce on stability in milliseconds"
+"D14","FLAGS =","DInputDebounOff","Default / SDWord","digital input debounce off stability in milliseconds"
+"D15","FLAGS =","DButtonDebounOn","Default / SDWord","button input debounce on stability in milliseconds"
+"D16","FLAGS =","DDebounNoticeOn","","notice debounce on in miliseconds"
+"D17","FLAGS =","DDebounNoticeOff","","notice debounce on in miliseconds"
+"D18","FLAGS =","DNoticeCode","","Code for the notice"
+"R0","FLAGS =","RFlowRateMin","Limit / Real","flow rate minimum"
+"R1","FLAGS =","RFlowRateMax","Limit / Real","flow rate maximum"
+"R2","FLAGS =","RConductMin","Limit / Real","conductivity minimum"
+"R3","FLAGS =","RConductMax","Limit / Real","conductivity maximum"
+"R4","FLAGS =","RpHMin","Limit / Real","pH minimum"
+"R5","FLAGS =","RpHMax","Limit / Real","pH maximum"
+"R6","FLAGS =","RORPMin","Limit / Real","ORP minimum"
+"R7","FLAGS =","RORPMax","Limit / Real","ORP maximum"
+"R8","FLAGS =","RAmperageOut","Scaled / Real","scaled galvanostat amperage in amps (see module/scale for ranges)"
+"R9","FLAGS =","RFlowInRate","Scaled / Real","scaled flow incoming rate in L/min (see module/scale for ranges)"
+"R10","FLAGS =","RAcidPumpRate","Scaled / Real","scaled acid pump rate in mL/min (see module/scale for ranges)"
+"R11","FLAGS =","RDrainPumpRate","Scaled / Real","scaled drain pump rate in XXX (see module/scale for ranges)"
+"R12","FLAGS =","RReagntPumpRate","Scaled / Real","scaled reagent pump rate in mL/min (see module/scale for ranges)"
+"R13","FLAGS =","RpH","Scaled / Real","scaled ph sensor value in pH (see module/scale for ranges)"
+"R14","FLAGS =","RConductivity","Scaled / Real","scaled conductivity sensor value in mS (see module/scale for ranges)"
+"R15","FLAGS =","RORP","Scaled / Real","scaled orp sensor value in mV (see module/scale for ranges)"
+"R16","FLAGS =","RTempInlet","Scaled / Real","scaled temperature in value in C (see module/scale for ranges)"
+"R17","FLAGS =","RTempOutlet","Scaled / Real","scaled temperature out value in C (see module/scale for ranges)"
+"R18","FLAGS =","RAmpFeedback","Scaled / Real","scaled amperage feedback value in amps (see module/scale for ranges)"
+"R19","FLAGS =","RVoltFeedback","Scaled / Real","scaled voltage feedback value in volts (see module/scale for ranges)"
+"R20","FLAGS =","RVoltInfo","Limit / Real","voltage Info level in volts"
+"R21","FLAGS =","RVoltAlarm","Limit / Real","voltage alarm level in volts"
+"R22","FLAGS =","RTempInfo","Limit / Real","temperature info level in C"
+"R23","FLAGS =","RTempAlarm","Limit / Real","temperature alarm level in C"
+"R24","FLAGS =","RMediaInfo","Limit / Real","media info level in %"
+"R25","FLAGS =","RMediaAlarm","Limit / Real","media alarm level in %"
+"R26","FLAGS =","RMaxAmerage","Limit / Real","maxium amperage devices can supply in amps"
+"R27","FLAGS =","RTempVolt","Temp / Real","temporary holding variable between calculations and functions"
+"R28","FLAGS =","RTankLevel","Scaled / Real","scaled tank level in meters (see module/scale for ranges)"
+"R29","FLAGS =","RpHFiltered","Temp / Real","scaled and filtered value for pH for acid pump PID"
+"R30","FLAGS =","RTankCurrVol","Temp / Real","reagent tank current volume in meters3"
+"R31","FLAGS =","RPropValve","Scaled / Real","tbd"
+"R32","FLAGS =","RFlowFiltered","Temp / Real","scaled and filtered value for flow rate for prop valve PID"
+"R33","FLAGS =","RCondFiltered","Temp / Real","scaled and filtered value for conductivity for acid pump PID"
+"R34","FLAGS =","RAcidDutyCycle","Percent / Real","percentage for acid pump duty cycle"
+"R35","FLAGS =","RAcidDutyOn","Temp / Real","time acid pump is on in msec"
+"R36","FLAGS =","RAcidDutyOff","Temp / Real","time acid pump is off in msec"
+"R37","FLAGS =","StoredRoutineID","",""
+"R38","FLAGS =","RMediaMConsRate","","Plates mas consumption rate"
+"T0","FLAGS =","TPolDuration","TImer Struct","timer for switching polarity"
+"T0.Done","FLAGS =","","TImer Struct",""
+"T1","FLAGS =","TUltraInterval","TImer Struct","timer for ultrasonics interval (off time)"
+"T1.Done","FLAGS =","TUltraInterval.D","TImer Struct",""
+"T2","FLAGS =","TUltraDuration","TImer Struct","timer for ultrasonics duration (on time)"
+"T2.Done","FLAGS =","TUltraDuration.D","TImer Struct",""
+"T3","FLAGS =","TPolPause3","TImer Struct","timer for pause between h bridge switching"
+"T3.Done","FLAGS =","","TImer Struct",""
+"T4","FLAGS =","TPolPause4","TImer Struct","timer for pause between h bridge switching"
+"T4.Done","FLAGS =","","TImer Struct",""
+"T5","FLAGS =","TPolPause5","TImer Struct","timer for pause between h bridge switching"
+"T5.Done","FLAGS =","","TImer Struct",""
+"T6","FLAGS =","TUltraDuation","TImer Struct","timer for ultrasonics sync duration (on time)"
+"T6.Done","FLAGS =","TUltraDuation.Do","TImer Struct","timer done for ultrasonics sync duration (on time)"
+"T7","FLAGS =","TCondRangeTO","TImer Struct","timer for conductivity timeout"
+"T8","FLAGS =","TFlowRangeTO","TImer Struct","timer for flow rate timeout"
+"T9","FLAGS =","TGenNotFullTO","TImer Struct","timer for generator not filled timeout"
+"T10","FLAGS =","TORPRangeTO","TImer Struct","timer for orp range timeout"
+"T11","FLAGS =","TpHRangeTO","TImer Struct","timer for ph range timeout"
+"T12","FLAGS =","TMediaAlarm","TImer Struct","timer for media timeout"
+"T13","FLAGS =","TLoadWebPagesUP","Timer Struct","timer for creating web pages directory"
+"T13.Done","FLAGS =","TLoadWebPagesUP.","Timer Struct","timer for creating web pages directory"
+"T15","FLAGS = REST_READONLY","TGenEmptyTO","TimerStruct","timer for generator empty timeout"
+"T17","FLAGS = REST_READONLY","TStartupTimeout","",""
+"SS1","FLAGS =","SSFileName","File / String","PLC specific file name prefix"
+"SL0","FLAGS =","SL_Message0","Message / String","latest message string"
+"MC1","FLAGS =","MC1_UIStartCMD","Modbus / Bit","modbus UI start bit"
+"MC2","FLAGS =","MC2_UIStopCMD","Modbus / Bit","modbus UI stop bit"
+"MC6","FLAGS =","MC6_RstAllPltCMD","Modbus / Bit","Reset All plates CMD"
+"MC7","FLAGS = REST_READONLY","MC7_RstInPltsCMD","","Reset Inner plates CMD"
+"MC8","FLAGS =","MC8_RestricStart","","Address to lock the start of the process from the UI"
+"MC9","FLAGS =","MC9_HaltACK","","Bit that the GUI sets to 1 to acknowledge errors. Used to go from HALTED to STOPPED"
+"MC101","FLAGS =","MC101_AORP","Modbus / Bit","modbus alarm: AORPRange"
+"MC102","FLAGS =","MC102_ApH","Modbus / Bit","modbus alarm: ApHRange"
+"MC103","FLAGS =","MC103_ACond","Modbus / Bit","modbus alarm: ACondRange"
+"MC104","FLAGS =","MC104_AFlow","Modbus / Bit","modbus alarm: AFlowRange"
+"MC105","FLAGS =","MC105_ATemp","Modbus / Bit","modbus alarm: ATempRange"
+"MC106","FLAGS =","MC106_GenNotFull","Modbus / Bit","modbus alarm: AGenNotFull"
+"MC107","FLAGS =","MC107_GenEmpty","",""
+"MC108","FLAGS =","MC108_AcidTankLo","",""
+"MC109","FLAGS =","MC109_AcidEmpty","",""
+"MC110","FLAGS = REST_READONLY","MC110_VoltInfo","",""
+"MC111","FLAGS =","MC111_VoltAlarm","",""
+"MC112","FLAGS =","MC112_ReagntOF","",""
+"MC113","FLAGS =","MC113_ReagntEmpt","",""
+"MC114","FLAGS =","MC114_ErrorPLC","",""
+"MC115","FLAGS = REST_READONLY","MC115_OutPlatesI","",""
+"MC116","FLAGS = REST_READONLY","MC116_OutPlatesN","",""
+"MC117","FLAGS =","MC117_ORPRangeTO","",""
+"MC118","FLAGS =","MC118_pHRangeTO","",""
+"MC119","FLAGS =","MC119_CondRangTO","",""
+"MC120","FLAGS =","MC120_FlowRangTO","",""
+"MC121","FLAGS = REST_READONLY","MC121_TempInfo","",""
+"MC122","FLAGS =","MC122_GenNotFuTO","Modbus / Bit","modbus alarm: AGenNotFullTO"
+"MC123","FLAGS =","MC123_GenEmptyTO","",""
+"MC127","FLAGS = REST_READONLY","MC127_ReTankFull","",""
+"MC128","FLAGS = REST_READONLY","MC128_ReTankEmpt","",""
+"MC129","FLAGS = REST_READONLY","MC129_ReTankHyst","",""
+"MC130","FLAGS = REST_READONLY","MC130_InPlatesI","",""
+"MC131","FLAGS = REST_READONLY","MC131_OutPlatesN","",""
+"MC132","FLAGS = REST_READONLY","MC132_StartTO","",""
+"MC212","FLAGS =","MC212_LeakSensor","Modbus / Bit","modbus leak sensor"
+"MC213","FLAGS =","MC213_Acid_Lvl_H","Modbus / Bit","modbus acid tank level hi"
+"MC214","FLAGS =","MC214_Acid_Lvl_L","Modbus / Bit","modbus acid tank level lo"
+"MC215","FLAGS =","MC215_Gen_Lvl_H","Modbus / Bit","modbus generator flow cell level hi"
+"MC216","FLAGS =","MC216_Gen_Lvl_L","Modbus / Bit","modbus generator flow cell level lo"
+"MC401","FLAGS =","StartRoutineCMD","",""
+"MC402","FLAGS =","StartRoutineACKS","",""
+"MC403","FLAGS =","AbortRoutineCMD","",""
+"MC404","FLAGS =","EndRoutineCMD","",""
+"MC405","FLAGS =","EndRoutineACK","",""
+"MC602","FLAGS =","MC_InletForce","Modbus / Bit","modbus actuator is being forced from GUI"
+"MC603","FLAGS =","MC_InletValue","Modbus / Bit","modbus status value for actuator"
+"MC610","FLAGS =","MC_DrainForce","Modbus / Bit","modbus actuator is being forced from GUI"
+"MC611","FLAGS =","MC_DrainValue","Modbus / Bit","modbus status value for actuator"
+"MHR1","FLAGS =","MHR1_Volt","Modbus / SWord","modbus voltage value"
+"MHR2","FLAGS =","MHR2_Amp","Modbus / SWord","modbus amperage value"
+"MHR3","FLAGS =","MHR3_pH","Modbus / SWord","modbus pH value"
+"MHR4","FLAGS =","MHR4_Flow","Modbus / SWord","modbus flow rate"
+"MHR5","FLAGS =","MHR5_InPlatePerc","Modbus / SWord","modbus inner plates percentage value"
+"MHR6","FLAGS =","MHR6_TempIn","Modbus / SWord","modbus temperature in"
+"MHR7","FLAGS =","MHR7_TempOut","Modbus / SWord","modbus temperature out"
+"MHR8","FLAGS =","MHR8_ReagntPerc","Modbus / SWord","modbus reagent percentage value"
+"MHR9","FLAGS =","MHR9_Conduct","Modbus / SWord","modbus conductivity"
+"MHR10","FLAGS = REST_READONLY","MHR10_OutPlatePe","","Outer plates percentage"
+"MHR11","FLAGS = REST_READONLY","MHR11_InPlatePer","","Outer plates percentage"
+"MHR101","FLAGS = REST_READONLY","MHR101_Status","","Status of the StateMachine"
+"MHR201","FLAGS =","RoutineID","Modbus / SWord","ID of the routine being triggered (Flush, etc.)"
+"MHR202","FLAGS =","RoutineStepNum","","Current step of the routine running"
+"A0","FLAGS =","ANoAlarm","Alarm / Bit","No Alarm"
+"A1","FLAGS =","AORPRange","Alarm / Bit","ORP Range - ORP is out of range"
+"A2","FLAGS =","ApHRange","Alarm / Bit","pH Range - PH is out of range"
+"A3","FLAGS =","ACondRange","Alarm / Bit","Conductivity Range - Conductivity is out of range"
+"A4","FLAGS =","AFlowRange","Alarm / Bit","Flow Range - Flow rate is out of range"
+"A5","FLAGS =","ATempAlarm","Alarm / Bit","Temperature Alarm - Temperature exceeds alarm level"
+"A6","FLAGS =","AGenNotFull","Alarm / Bit","Generator Level - Generator flow cell is not filled"
+"A7","FLAGS =","AGenEmpty","Alarm / Bit","Generator Level - Generator flow cell is empty"
+"A8","FLAGS =","AAcidTankLow","Alarm / Bit","Acid Level - Acid tank is running low"
+"A9","FLAGS =","AAcidTankEmpty","Alarm / Bit","Acid Level - Acid tank is empty"
+"A10","FLAGS =","AVoltInfo","Alarm / Bit","Voltage Info - Voltage exceeds info level"
+"A11","FLAGS =","AVoltAlarm","Alarm / Bit","Voltage Alarm - Voltage exceeds alarm level"
+"A12","FLAGS =","AReagntOverFlow","Alarm / Bit","Reagent Level - Reagent tank reached overflow"
+"A13","FLAGS =","AReagntEmpty","Alarm / Bit","Reagent Level - Reagent tank is empty"
+"A14","FLAGS =","AErrorPLC","Alarm / Bit","PLC Error - PLC is experiencing errors"
+"A15","FLAGS =","AOutPlatesInfo","Alarm / Bit","Media Info - Media near end-of-life"
+"A16","FLAGS =","AOutPlatesNotice","Alarm / Bit","Media Alarm - Media at end-of-life"
+"A17","FLAGS =","AORPRangeTO","Alarm / Bit","ORP Range - ORP is out of range and timed out"
+"A18","FLAGS =","ApHRangeTO","Alarm / Bit","pH Range - PH is out of range and timed out"
+"A19","FLAGS =","ACondRangeTO","Alarm / Bit","Conductivity Range - Conductivity is out of range and timed out"
+"A20","FLAGS =","AFlowRangeTO","Alarm / Bit","Flow Range - Flow rate is out of range and timed out"
+"A21","FLAGS =","ATempInfo","Alarm / Bit","Temperature Info - Temperature exceeds info level"
+"A22","FLAGS =","AGenNotFullTO","Alarm / Bit","Generator Level - Generator flow cell has not filled and timed out"
+"A23","FLAGS =","AGenEmptyTO","Alarm / Bit","Generator Level - Generator flow cell is empty and timed out"
+"A24","FLAGS =","AModbusWrite","Alarm / Bit","Modbus Write - an error from writing Modbus"
+"A25","FLAGS =","AModbusRead","Alarm / Bit","Modbus Read - an error from reading Modbus"
+"A26","FLAGS =","ALoadWebPages","Alarm / Bit","Load Web Pages - an error occurred while refreshing web pages"
+"A27","FLAGS =","AReagentTankFull","Notice","Notice - the reagent tank is full"
+"A28","FLAGS =","AReagentTankEmpt","Notice","Notice - the reagent tank is empty"
+"A29","FLAGS = REST_READONLY","AReagTankOverHys","Notice","If the reagent tank is over a certain percentage when the machine is restarted a notice will be raised and we'll go to Standb"
+"A30","FLAGS = REST_READONLY","AInPlatesInfo","",""
+"A31","FLAGS = REST_READONLY","AInPlatesNotice","",""
+"A32","FLAGS = REST_READONLY","AStartupTimeoutE","",""
+"F0","FLAGS =","FAmperageOut","Original / Real","amperage out to galv in amps"
+"F1","FLAGS =","FUltraDuration","Original / Real","ultrasonic duration off in seconds"
+"F2","FLAGS =","FUltraInterval","Original / Real","ultrasonic interval on in seconds"
+"F3","FLAGS =","FPolarityCycle","Original / Real","polarity cycle time in seconds"
+"F4","FLAGS =","FErrorDebounOn","Original / Real","error debounce on in milliseconds"
+"F5","FLAGS =","FInfoDebounOn","Original / Real","info debounce on in milliseconds"
+"F6","FLAGS =","FInfoDebounOff","Original / Real","info debounce off in milliseconds"
+"F7","FLAGS =","FWarnDebounOn","Original / Real","warning debounce on in milliseconds"
+"F8","FLAGS =","FWarnDebounOff","Original / Real","warning debounce off in milliseconds"
+"F9","FLAGS =","FErrorDebounOff","Original / Real","error debounce off in milliseconds"
+"F10","FLAGS =","FpHTarget","Original / Real","target value for pH level in acid pump PID"
+"F11","FLAGS =","FTankHeight","Original / Real","reagent tank height in meters"
+"F12","FLAGS =","FTankCrossSect","Original / Real","reagent tank cross sectional area in meters2"
+"F13","FLAGS =","FTankCapacity","Original / Real","reagent tank capacity in meters3"
+"F14","FLAGS =","FCondTarget","Original / Real","target value for conductivity level"
+"F15","FLAGS =","FFlowTarget","Original / Real","target flow value for proportional valve in lpm"
+"F16","FLAGS =","FAmpSecFactor","Original / Real","factor used in calculating media percent"
+"F17","FLAGS =","FAcidDutyDur","Original / Real","duratino time for acid pump duty cycle in msec"
+"F18","FLAGS =","FTotalPlatesMass","","Total mass of the plates"
+"F19","FLAGS =","FReagTankMaxPerc","","Percentage for which we consider the reagent tank to be full"
+"F20","FLAGS =","FReagTankMinPerc","","Percentage for which we consider the reagent tank to be empty"
+"F21","FLAGS = REST_READONLY","FReagTankHysPerc","","Percentage that acts as a limit when the device is restarted, to decide whether or not we generate"
+"B0","FLAGS =","BNoAlarm","Bypass / Bit","enable/disable associated alarm: ANoAlarm"
+"B1","FLAGS =","BORPRange","Bypass / Bit","enable/disable associated alarm: AORPRange"
+"B2","FLAGS =","BpHRange","Bypass / Bit","enable/disable associated alarm: ApHRange"
+"B3","FLAGS =","BCondRange","Bypass / Bit","enable/disable associated alarm: ACondRange"
+"B4","FLAGS =","BFlowRange","Bypass / Bit","enable/disable associated alarm: AFlowRange"
+"B5","FLAGS =","BTempAlarm","Bypass / Bit","enable/disable associated alarm: ATempAlarm"
+"B6","FLAGS =","BGenNotFull","Bypass / Bit","enable/disable associated alarm: AGenNotFull"
+"B7","FLAGS =","BGenEmpty","Bypass / Bit","enable/disable associated alarm: AGenEmpty"
+"B8","FLAGS =","BAcidTankLow","Bypass / Bit","enable/disable associated alarm: AAcidTankLow"
+"B9","FLAGS =","BAcidTankEmpty","Bypass / Bit","enable/disable associated alarm: AAcidTankEmpty"
+"B10","FLAGS =","BVoltInfo","Bypass / Bit","enable/disable associated alarm: AVoltInfo"
+"B11","FLAGS =","BVoltAlarm","Bypass / Bit","enable/disable associated alarm: AVoltAlarm"
+"B12","FLAGS =","BReagntOverFlow","Bypass / Bit","enable/disable associated alarm: AReagntOverFlow"
+"B13","FLAGS =","BReagntEmpty","Bypass / Bit","enable/disable associated alarm: AReagntEmpty"
+"B14","FLAGS =","BErrorPLC","Bypass / Bit","enable/disable associated alarm: AErrorPLC"
+"B15","FLAGS =","BOutPlatesInfo","Bypass / Bit","enable/disable associated alarm: AMediaInfo"
+"B16","FLAGS =","BOutPlatesNotice","Bypass / Bit","enable/disable associated alarm: AMediaAlarm"
+"B17","FLAGS =","BORPRangeTO","Bypass / Bit","enable/disable associated alarm: AORPRangeTO"
+"B18","FLAGS =","BpHRangeTO","Bypass / Bit","enable/disable associated alarm: ApHRangeTO"
+"B19","FLAGS =","BCondRangeTO","Bypass / Bit","enable/disable associated alarm: ACondRangeTO"
+"B20","FLAGS =","BFlowRangeTO","Bypass / Bit","enable/disable associated alarm: AFlowRangeTO"
+"B21","FLAGS =","BTempInfo","Bypass / Bit","enable/disable associated alarm: ATempInfo"
+"B22","FLAGS =","BGenNotFullTO","Bypass / Bit","enable/disable associated alarm: AGenNotFullTO"
+"B23","FLAGS =","BGenEmptyTO","Bypass / Bit","enable/disable associated alarm: AGenEmptyTO"
+"B24","FLAGS =","BModbusWrite","Bypass / Bit","enable/disable associated alarm: AModbusWrite"
+"B25","FLAGS =","BModbusRead","Bypass / Bit","enable/disable associated alarm: AModbusRead"
+"B26","FLAGS =","BLoadWebPages","Bypass / Bit","enable/disable associated alarm: ALoadWebPages"
+"B27","FLAGS =","BReagTankFull","","enable/disable for tank is full"
+"B28","FLAGS =","BReagTankEmpty","",""
+"B29","FLAGS = REST_READONLY","BReagTankOverHys","",""
+"B30","FLAGS = REST_READONLY","BInPlatesInfo","",""
+"B31","FLAGS = REST_READONLY","BInPlatesNotice","",""
+"B32","FLAGS = REST_READONLY","BStartupTimeoutE","",""
+"TO0","FLAGS =","TOCondRange","Timeout / SDWord","conductivity timeout in seconds"
+"TO1","FLAGS =","TOFlowRange","Timeout / SDWord","flow rate timeout in seconds"
+"TO2","FLAGS =","TOGenEmpty","Timeout / SDWord","generator empty timeout in seconds"
+"TO3","FLAGS =","TOGenNotFull","Timeout / SDWord","generator not filled timeout in seconds"
+"TO4","FLAGS =","TOORPRange","Timeout / SDWord","orp range timeout in seconds"
+"TO5","FLAGS =","TOpHRange","Timeout / SDWord","pH range timeout in seconds"
+"TO6","FLAGS =","TOMediaAlarm","Timeout / SDWord","media timeout in seconds"
+"TT0","FLAGS =","TTAmpHours","Totals / Real","accumulated Ah since last plate reset"
+"TT1","FLAGS =","TTKWattHours","Totals / Real","accumulated KWh since last plate reset"
+"TT3","FLAGS =","TTFlowVolume","Totals / Real","total flow volume since last plate reset"
+"TT4","FLAGS =","TTAmpSeconds","Totals / Real","holding variable for amp seconds for percent subtraction"
+"TT5","FLAGS =","TTGenRunTmeHrs","Totals / Real","accumulated run time in hours of generator"
+"TT6","FLAGS =","TTGenRunTimeSec","Totals / Real","accumulated run time in seconds of generator"
+"TT7","FLAGS =","TTReagntPercent","Totals / Real","reagent tank current volume in percentage"
+"TT8","FLAGS = REST_READONLY","TTMassConsuOut","","Total media mass consumed of the outter plates"
+"TT9","FLAGS = REST_READONLY","TTMediaPerOut","","percentage of outer plate media remaining since last plate reset"
+"TT10","FLAGS = REST_READONLY","TTMasConsuIn","","Total media mass consumed of the inner plates"
+"TT11","FLAGS = REST_READONLY","TTMediaPercIn","","Percentage left of the inner plates"
+"W0","FLAGS =","WAmpFeedback","Raw/ Real","raw galvanostat amperage feedback value (see module/scale for ranges)"
+"W1","FLAGS =","WConductivity","Raw/ Real","raw conductivity sensor value (see module/scale for ranges)"
+"W2","FLAGS =","WORP","Raw/ Real","raw orp value (see module/scale for ranges)"
+"W3","FLAGS =","WTempInlet","Raw/ Real","raw temperature inlet value (see module/scale for ranges)"
+"W4","FLAGS =","WTempOutlet","Raw/ Real","raw temperature outlet value (see module/scale for ranges)"
+"W5","FLAGS =","WFlowInRate","Raw/ Real","raw incoming rate value (see module/scale for ranges)"
+"W6","FLAGS =","WpH","Raw/ Real","raw pH sensor value (see module/scale for ranges)"
+"W7","FLAGS =","WVoltFeedback","Raw/ Real","raw galvanostat voltage feedback value (see module/scale for ranges)"
+"W8","FLAGS =","WTankLevel","Raw/ Real","raw level sensor value (see module/scale for ranges)"
+"SC0","FLAGS =","SCAmpFbInMin","Scale / Real","scales for amperage feedbacks"
+"SC1","FLAGS =","SCAmpFbInMax","Scale / Real","scales for amperage feedbacks"
+"SC2","FLAGS =","SCAmpFbOutMin","Scale / Real","scales for amperage feedbacks"
+"SC3","FLAGS =","SCAmpFbOutMax","Scale / Real","scales for amperage feedbacks"
+"SC4","FLAGS =","SCCondInMin","Scale / Real","scales for conductivity"
+"SC5","FLAGS =","SCCondInMax","Scale / Real","scales for conductivity"
+"SC6","FLAGS =","SCCondOutMin","Scale / Real","scales for conductivity"
+"SC7","FLAGS =","SCCondOutMax","Scale / Real","scales for conductivity"
+"SC8","FLAGS =","SCOrpInMin","Scale / Real","scales for orp"
+"SC9","FLAGS =","SCOrpInMax","Scale / Real","scales for orp"
+"SC10","FLAGS =","SCOrpOutMin","Scale / Real","scales for orp"
+"SC11","FLAGS =","SCOrpOutMax","Scale / Real","scales for orp"
+"SC12","FLAGS =","SCTempInInMin","Scale / Real","scales for temp in"
+"SC13","FLAGS =","SCTempInInMax","Scale / Real","scales for temp in"
+"SC14","FLAGS =","SCTempInOutMin","Scale / Real","scales for temp in"
+"SC15","FLAGS =","SCTempInOutMax","Scale / Real","scales for temp in"
+"SC16","FLAGS =","SCTempOutInMin","Scale / Real","scales for temp out"
+"SC17","FLAGS =","SCTempOutInMax","Scale / Real","scales for temp out"
+"SC18","FLAGS =","SCTempOutOutMin","Scale / Real","scales for temp out"
+"SC19","FLAGS =","SCTempOutOutMax","Scale / Real","scales for temp out"
+"SC20","FLAGS =","SCFlowInMin","Scale / Real","scales for flow in rate"
+"SC21","FLAGS =","SCFlowInMax","Scale / Real","scales for flow in rate"
+"SC22","FLAGS =","SCFlowOutMin","Scale / Real","scales for flow in rate"
+"SC23","FLAGS =","SCFlowOutMax","Scale / Real","scales for flow in rate"
+"SC24","FLAGS =","SCpHInMin","Scale / Real","scales for pH"
+"SC25","FLAGS =","SCpHInMax","Scale / Real","scales for pH"
+"SC26","FLAGS =","SCpHOutMin","Scale / Real","scales for pH"
+"SC27","FLAGS =","SCpHOutMax","Scale / Real","scales for pH"
+"SC28","FLAGS =","SCVoltFbInMin","Scale / Real","scales for voltage feedback"
+"SC29","FLAGS =","SCVoltFbInMax","Scale / Real","scales for voltage feedback"
+"SC30","FLAGS =","SCVoltFbOutMin","Scale / Real","scales for voltage feedback"
+"SC31","FLAGS =","SCVoltFbOutMax","Scale / Real","scales for voltage feedback"
+"SC32","FLAGS =","SCTankLvInMin","Scale / Real","scales for tank level"
+"SC33","FLAGS =","SCTankLvInMax","Scale / Real","scales for tank level"
+"SC34","FLAGS =","SCTankLvOutMin","Scale / Real","scales for tank level"
+"SC35","FLAGS =","SCTankLvOutMax","Scale / Real","scales for tank level"
+"SC36","FLAGS =","SCAmpOutInMin","Scale / Real","scales for amperage out"
+"SC37","FLAGS =","SCAmpOutInMax","Scale / Real","scales for amperage out"
+"SC38","FLAGS =","SCAmpOutOutMin","Scale / Real","scales for amperage out"
+"SC39","FLAGS =","SCAmpOutOutMax","Scale / Real","scales for amperage out"
+"SC40","FLAGS =","SCDrainRtInMin","Scale / Real","scales for drain pump rate"
+"SC41","FLAGS =","SCDrainRtInMax","Scale / Real","scales for drain pump rate"
+"SC42","FLAGS =","SCDrainRtOutMin","Scale / Real","scales for drain pump rate"
+"SC43","FLAGS =","SCDrainRtOutMax","Scale / Real","scales for drain pump rate"
+"SC44","FLAGS =","SCReagntRtInMin","Scale / Real","scales for ragent pump rate"
+"SC45","FLAGS =","SCReagntRtInMax","Scale / Real","scales for ragent pump rate"
+"SC46","FLAGS =","SCReagntRtOutMin","Scale / Real","scales for ragent pump rate"
+"SC47","FLAGS =","SCReagntRtOutMax","Scale / Real","scales for ragent pump rate"
+"SC48","FLAGS =","SCpHRawMin","Scale / Real","scales for PID acid pump pH"
+"SC49","FLAGS =","SCpHRawMax","Scale / Real","scales for PID acid pump pH"
+"SC50","FLAGS =","SCpHEngMin","Scale / Real","scales for PID acid pump pH"
+"SC51","FLAGS =","SCpHEngMax","Scale / Real","scales for PID acid pump pH"
+"SC52","FLAGS =","SCFlowRawMin","Scale / Real","scales for PID proportional valve flow rate in lpm"
+"SC53","FLAGS =","SCFlowRawMax","Scale / Real","scales for PID proportional valve flow rate in lpm"
+"SC54","FLAGS =","SCFlowEngMin","Scale / Real","scales for PID proportional valve flow rate in lpm"
+"SC55","FLAGS =","SCFlowEngMax","Scale / Real","scales for PID proportional valve flow rate in lpm"
+"SC56","FLAGS =","SCCondRawMin","Scale / Real","scales for PID conductivity acid flow rate in mS"
+"SC57","FLAGS =","SCCondRawMax","Scale / Real","scales for PID conductivity acid flow rate in mS"
+"SC58","FLAGS =","SCCondEngMin","Scale / Real","scales for PID conductivity acid flow rate in mS"
+"SC59","FLAGS =","SCCondEngMax","Scale / Real","scales for PID conductivity acid flow rate in mS"
+"SE0","FLAGS =","SEWebDirSuc","File / Bit","success of web directory creation"
+"SE1","FLAGS =","SEWebDirErr","File / Bit","error of web directory creation"
+"SE2","FLAGS =","SEWebFile1Suc","File / Bit","success of web copy file 1"
+"SE3","FLAGS =","SEWebFile1Err","File / Bit","error of web copy file 1"
+"SE4","FLAGS =","SEWebFile2Suc","File / Bit","success of web copy file 2"
+"SE5","FLAGS =","SEWebFile2Err","File / Bit","error of web copy file 2"
+"ProgInfo","FLAGS =","PInfo","Program Struct","program monitors conditions that may affect future operations"
+"ProgErrors","FLAGS =","PErrors","Program Struct","program monitors conditions that may halt processing and require assistance"
+"TaskUltrasonics","FLAGS =","TUltrasonics","Task Struct","task starts/stops ultrasonics for the generator flow cell"
+"TaskPolarity","FLAGS =","TPolarity","Task Struct","task starts/stops polarity for the generator flow cell"
+"ProgWarnings","FLAGS =","PWarnings","Program Struct","program monitors conditions that may pause generation but also may recover"
+"TaskGalvanostat","FLAGS =","TGalvanostat","Task Struct","task starts/stops galvanostat for the generator flow cell"
+"TaskAcidPumpPID","FLAGS =","TAcidPumpPID","Task Struct","task adjusts acid pump rate to meet target pH level using PID"
+"AcidPumpCtlPID","FLAGS =","PIDAcidPumpCtl","PID","routine for acid pump"
+"AcidPumpCtlPID.SP","FLAGS =","PIDAcidPumpCtl.S","PID","routine for acid pump set point"
+"RS_0","FLAGS =","RSAcidPumpPID","RampSoak Struct","ramp soak structure for acid pump PID"
+"TaskLoadWebPages","FLAGS =","TLoadWebPages","Task Struct","task refreshes web user pages from SD card to RAM"
+"PropValveCtlPID","FLAGS =","PIDPropValveCtl","PID","routine for flow control with proportional valve"
+"PropValveCtlPID.SP","FLAGS =","PIDPropValveCtl.","PID","routine for flow control with proportional valve"
+"TaskPropValvePID","FLAGS =","TPropValvePID","Task Strut","task adjusts proportional valve to meet flow rate target level using PID"
+"RS_1","FLAGS =","RSPropValvePID","RampSoak Struct","ramp soak structure for proportional valve PID"
+"ConductvyCtlPID","FLAGS =","PIDConductvyCtl","PID","routine for conductivity to acid pump"
+"ConductvyCtlPID.SP","FLAGS =","","PID","routine for conductivity to acid pump"
+"TaskConductvyPID","FLAGS =","TConductvyPID","Task Struct","task adjusts acid pump rate to meet target conductivity level using PID"
+"RS_2","FLAGS =","RSConductvyPID","RampSoak Struct","ramp soak structure for conductivity acid PID"
+"SK1","FLAGS =","SM_Idle","4","system mode: idle"
+"SK2","FLAGS =","SM_Running","3","system mode: running"
+"SK3","FLAGS =","SM_Stopped","1","system mode: stopped"
+"SK4","FLAGS =","SM_Halted","10","system mode: halted"
+"SK5","FLAGS =","A_VoltAlarm","220","alarm code: AVoltAlarm"
+"SK6","FLAGS =","A_CondRange","30","alarm code: ACondRange"
+"SK7","FLAGS =","A_NoAlarm","0","alarm code: ANoAlarm"
+"SK8","FLAGS =","A_ReagntOverFlow","190","alarm code: AReagntOverFlow"
+"SK9","FLAGS =","A_GenEmpty","105",""
+"SK10","FLAGS =","A_TempAlarm","200","alarm code: ATempAlarm"
+"SK11","FLAGS =","A_FlowRange","60","alarm code: AFlowRange"
+"SK12","FLAGS =","A_pHRange","160","alarm code: ApHRange"
+"SK13","FLAGS =","A_ORPRange","140","alarm code: AORPRange"
+"SK14","FLAGS =","A_GenNotFull","100","alarm code: AGenNoFull"
+"SK15","FLAGS =","A_VoltInfo","230","alarm code: AVoltInfo"
+"SK16","FLAGS =","A_AcidTankEmpty","10","alarm code:AAcidTankEmpty"
+"SK17","FLAGS =","A_AcidTankLow","20","alarm code: AAcidTankLow"
+"SK18","FLAGS =","A_GenEmptyTO","115",""
+"SK19","FLAGS =","N_ReagTankOverHy","260",""
+"SK20","FLAGS =","A_InPlatesInfo","270",""
+"SK21","FLAGS =","A_OutPlatesInfo","130","alarm code: AMediaInfo"
+"SK22","FLAGS =","A_OutPlatesAlarm","120","alarm code: AMediaAlarm"
+"SK23","FLAGS =","A_ORPRangeTO","150","alarm code: AORPRangeTO"
+"SK24","FLAGS =","A_pHRangeTO","170","alarm code: ApHRangeTO"
+"SK25","FLAGS =","A_CondRangeTO","40","alarm code: ACondRangeTO"
+"SK26","FLAGS =","A_FlowRangeTO","70","alarm code: AFlowRangeTO"
+"SK27","FLAGS =","A_TempInfo","210","alarm code: ATempInfo"
+"SK28","FLAGS =","A_GenNotFullTO","110","alarm code: AGenNotFullTO"
+"SK29","FLAGS =","N_InPlates","275",""
+"SK30","FLAGS =","N_OutPlates","280",""
+"SK31","FLAGS =","A_LoadWebPages","122","alarm code: ALoadWebPages"
+"SK32","FLAGS =","N_ReagTankFull","240",""
+"SK33","FLAGS =","N_ReagTankEmpty","250",""
+"SK34","FLAGS =","SM_Standby","5","system mode: standby"
+"SK35","FLAGS =","SM_Starting","2",""
+"SK36","FLAGS =","SM_Stopping","6",""
+"SK37","FLAGS =","SM_RemoteDisable","7",""
+"SK38","FLAGS =","A_StartupTimeout","290",""
+"US0","FLAGS =","_TRinsing","Task Struct","TRinsing","TaskRinsing","t"
+#END
+

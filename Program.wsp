@@ -1,0 +1,101 @@
+[VERSION]
+APIVERSION=(100)
+VERSION=(2,10,2,52)
+[FRAME]
+PLACEMENT=(44,2,3,-1,-1,-1,-1,3506,21,4373,510)
+FRAME DATA=(1,1,0,0)
+[FRAME DATA]
+1=(44,0,1,-1,-1,-8,-31,26,26,953,224)
+2=(44,0,1,-1,-1,-8,-31,52,52,1376,572)
+3=(44,0,1,-1,-1,-8,-31,156,156,1418,524)
+4=(44,0,1,-1,-1,-8,-31,26,26,992,546)
+5=(44,0,1,-1,-1,-8,-31,104,104,1070,624)
+6=(44,0,1,-1,-1,-8,-31,0,0,966,520)
+7=(44,0,1,-1,-1,-8,-31,182,182,1392,702)
+8=(44,0,1,-1,-1,-8,-31,26,26,1044,394)
+9=(44,0,1,-1,-1,-8,-31,130,130,1096,650)
+10=(44,0,1,-1,-1,-8,-31,156,156,1122,676)
+11=(44,2,3,-1,-1,-8,-31,26,26,1449,559)
+12=(44,0,1,-1,-1,-1,-1,0,23,376,394)
+13=(44,0,1,-1,-1,-1,-1,0,23,240,793)
+14=(44,0,1,-1,-1,-1,-1,0,23,376,395)
+[FRAME TYPES]
+1=20
+2=24
+3=3
+4=3
+5=3
+6=3
+7=3
+8=3
+9=3
+10=3
+11=3
+12=14
+13=25
+14=6
+[Ladder Views]
+F3V1=(95,18,0,7,16,5,18,1,30000,0,0)
+F4V1=(95,1,0,7,16,5,12,1,30000,0,0)
+F5V1=(95,1,0,7,16,5,2,2,3,0,0)
+F6V1=(95,9,0,7,16,5,2,1,1,0,0)
+F7V1=(95,1,0,7,16,5,1,2,3,0,0)
+F8V1=(95,3,0,7,16,5,3,1,1,0,0)
+F9V1=(95,13,0,7,16,5,13,1,30000,0,0)
+F10V1=(95,2,0,7,16,5,2,1,30000,0,0)
+F11V1=(95,2,-48,7,16,5,5,1,30000,0,1)
+[Ladder Frame 3]
+Ladder View 1z=(0,0,1225,325)
+ModuleSegment=6
+[Ladder Frame 4]
+Ladder View 1z=(0,0,929,477)
+ModuleSegment=8
+[Ladder Frame 5]
+Ladder View 1z=(0,0,929,477)
+ModuleSegment=19
+[Ladder Frame 6]
+Ladder View 1z=(0,0,929,477)
+ModuleSegment=29
+[Ladder Frame 7]
+Ladder View 1z=(0,0,1173,477)
+ModuleSegment=31
+[Ladder Frame 8]
+Ladder View 1z=(0,0,981,325)
+ModuleSegment=10
+[Ladder Frame 9]
+Ladder View 1z=(0,0,929,477)
+ModuleSegment=14
+[Ladder Frame 10]
+Ladder View 1z=(0,0,929,477)
+ModuleSegment=12
+[Ladder Frame 11]
+Ladder View 1z=(0,0,1271,763)
+ModuleSegment=17
+[TAB INFO]
+Tab0=20,Start Page
+Tab1=3,$Main
+Tab2=3,ProgStateMachine
+Tab3=3,ProgRinsing
+Tab4=3,ProgNotices
+Tab5=3,ProgErrors
+Tab6=3,ProgWarnings
+Tab7=3,$tBottomOfScan
+Tab8=3,$tFirstScan
+Tab9=3,$tTopOfScan
+Tab10=24,Dashboard
+Tab11=9,Documentation Editor
+[DOCKPANE TO FRAME XREF]
+Project Browser`6852=12
+Instruction Toolbox`4381=13
+Data1`6857=14
+[Watch Views]
+F14V1=(6029391,1,1,0,0,0,0,6,1,0,0,7667815,147,71,0,0,71,0,0,0)
+[Watch View 14]
+SETTINGS=(65539,0,65536,65536,65537,65537,65537,1635017028,49,0,0,0,0,0,0,0,0,256,0)
+Title=Data1
+1=(1409483270,13617,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16777216)
+5=(1090716161,12851,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+[DISPLAY MODE]
+DoMDIRestore=0
+[SYSTEM NAME]
+System Name=DESKTOP-WIN11
