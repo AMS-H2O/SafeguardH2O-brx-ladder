@@ -5,64 +5,62 @@ VERSION=(2,10,2,52)
 PLACEMENT=(44,2,3,-1,-1,-1,-1,2561,232,3713,855)
 FRAME DATA=(1,1,0,0)
 [FRAME DATA]
-1=(44,0,1,-1,-1,-8,-31,78,78,957,400)
-2=(44,0,1,-1,-1,-8,-31,130,130,1282,451)
-3=(44,0,1,-1,-1,-8,-31,78,78,883,552)
-4=(44,0,1,-1,-1,-8,-31,104,104,1256,425)
-5=(44,2,3,-1,-1,-8,-31,156,156,1308,477)
-6=(44,0,1,-1,-1,-1,-1,0,23,360,769)
-7=(44,0,1,-1,-1,-1,-1,0,23,240,793)
-8=(44,0,1,-1,-1,-1,-1,0,23,1312,286)
+1=(44,0,1,-1,-1,-8,-31,104,104,1256,425)
+2=(44,0,1,-1,-1,-8,-31,52,52,1126,585)
+3=(44,0,1,-1,-1,-8,-31,26,26,1178,347)
+4=(44,0,1,-1,-1,-8,-31,156,156,1308,477)
+5=(44,0,1,-1,-1,-8,-31,52,52,1204,373)
+6=(44,2,3,-1,-1,-8,-31,182,182,1256,715)
+7=(44,0,1,-1,-1,-1,-1,0,23,360,769)
+8=(44,0,1,-1,-1,-1,-1,0,23,240,793)
 9=(44,0,1,-1,-1,-1,-1,0,0,0,0)
 [Ladder Views]
-F1V1=(95,13,0,7,16,5,13,1,1,0,0)
-F2V1=(95,9,0,7,16,5,9,1,30000,0,0)
-F3V1=(95,3,0,7,16,5,3,3,6,0,0)
-F4V1=(95,1,0,7,16,5,2,1,30000,0,0)
-F5V1=(95,24,-256,7,16,5,2,1,30000,0,1)
+F1V1=(95,9,0,7,16,5,9,1,30000,1,0)
+F2V1=(95,19,-16,7,16,5,22,1,2,1,0)
+F3V1=(95,15,-176,7,16,5,16,2,30000,1,0)
+F4V1=(95,16,-16,7,16,5,17,1,30000,1,0)
+F5V1=(95,1,0,7,16,5,1,1,1,1,0)
+F6V1=(95,14,-1248,7,16,5,14,12,30000,1,1)
 [Ladder Frame 1]
-Ladder View 1z=(0,0,842,279)
-ModuleSegment=8
+Ladder View 1z=(0,0,1115,278)
+ModuleSegment=12
 [FRAME TYPES]
 1=3
 2=3
 3=3
 4=3
 5=3
-6=14
-7=25
-8=6
+6=3
+7=14
+8=25
 9=21
 [Ladder Frame 2]
-Ladder View 1z=(0,0,1115,278)
-ModuleSegment=19
+Ladder View 1z=(0,0,1037,490)
+ModuleSegment=6
 [Ladder Frame 3]
-Ladder View 1z=(0,0,768,431)
-ModuleSegment=31
+Ladder View 1z=(0,0,1115,278)
+ModuleSegment=14
 [Ladder Frame 4]
 Ladder View 1z=(0,0,1115,278)
-ModuleSegment=12
-[Ladder Frame 5]
-Ladder View 1z=(0,0,1287,473)
 ModuleSegment=17
+[Ladder Frame 5]
+Ladder View 1z=(0,0,1115,278)
+ModuleSegment=30
+[Ladder Frame 6]
+Ladder View 1z=(0,0,1287,763)
+ModuleSegment=8
 [TAB INFO]
-Tab0=3,ProgStateMachine
-Tab1=3,ProgErrors
-Tab2=9,Documentation Editor
-Tab3=3,$tFirstScan
-Tab4=3,ProgWarnings
-Tab5=3,$tTopOfScan
+Tab0=3,$tFirstScan
+Tab1=3,$tTopOfScan
+Tab2=3,$tBottomOfScan
+Tab3=3,TaskFilterError
+Tab4=3,$Main
+Tab5=9,Documentation Editor
+Tab6=3,ProgErrors
 [DOCKPANE TO FRAME XREF]
-Project Browser`6852=6
-Instruction Toolbox`4381=7
-Data1`6857=8
+Project Browser`6852=7
+Instruction Toolbox`4381=8
 Launchpad`6855=9
-[Watch Views]
-F8V1=(6029391,1,1,0,0,0,0,2,1,0,0,7667815,78,77,0,0,77,0,0,0)
-[Watch View 8]
-SETTINGS=(65539,0,65536,65536,65537,65537,65537,1635017028,49,0,0,0,0,0,0,0,0,256,0)
-Title=Data1
-1=(1140982274,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67108864,128,808452096)
 [DISPLAY MODE]
 DoMDIRestore=0
 [SYSTEM NAME]
